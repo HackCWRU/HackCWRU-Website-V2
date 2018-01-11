@@ -1,0 +1,9 @@
+.trackSection {
+	height:100vh;
+}
+
+.trackHeader {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}

@@ -1,0 +1,44 @@
+.Intro_Section {
+	height:100vh;
+}
+
+.center_row {
+	position:absolute;
+	top:30%;
+	padding-left:100px;
+	padding-right:200px;
+}
+
+.title_image {
+	width:80%;
+}
+
+.introText {
+	text-align: center;
+	margin: auto;
+
+}
+
+.butSty {
+	width: 35%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.university {
+	font-size: 40px;
+  color: #24408e;
+  font-family: womby;
+}
+
+@font-face {
+font-family: "womby";
+src: url("Womby-Regular.ttf");
+}

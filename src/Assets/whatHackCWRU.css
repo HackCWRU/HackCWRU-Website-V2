@@ -1,0 +1,23 @@
+.thing {
+  position: absolute;
+  height: 65vh;
+}
+
+.whatHackCWRU {
+  height: 100vh;
+}
+
+.whatText {
+  font-size: 20px;
+}
+
+.whatHeader {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}
+
+@font-face {
+font-family: "womby";
+src: url("Womby-Regular.ttf");
+}

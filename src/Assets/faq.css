@@ -1,0 +1,38 @@
+.faq_header {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}
+
+.faq {
+  height: 100vh;
+}
+
+.thing2 {
+  position: absolute;
+  height: 50vh;
+  top: 30vh;
+}
+
+.thing3 {
+  position: absolute;
+  height: 65vh;
+  right:0;
+}
+
+.bounding_box {
+  border:2px solid #8EEEFF;
+  border-radius: 10px;
+}
+
+.theplus_thingy {
+  font-size: 25px;
+  padding-left: 10px;
+  color: #FF6F82;
+  font-weight: bold;
+}
+
+.theplus_thingy:hover {
+  text-decoration:none;
+  color: #FF6F82;
+}

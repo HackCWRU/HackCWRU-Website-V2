@@ -1,0 +1,10 @@
+.menuBar {
+  background-color: #91a9dc;
+}
+
+.navbar-brand {
+  color:#ffffff !important;
+}
+.navbar-nav>li>a {
+  color:#ffffff !important;
+}
