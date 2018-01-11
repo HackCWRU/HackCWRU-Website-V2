@@ -16,7 +16,6 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^15.5.4",
-    "react-gif": "^0.1.0",
     "react-router": "4.1.1",
     "react-router-dom": "4.1.1",
     "react-scripts": "^1.0.14"
