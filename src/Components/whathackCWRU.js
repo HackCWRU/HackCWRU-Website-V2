@@ -12,8 +12,9 @@ class WhathackCWRU extends Component {
     	return (
       	<div className="App">
 					<section className="whatHackCWRU">
+						<img className="thing" src={require('../Assets/thing.png')}></img>
 						<Row>
-							<Col md="2"><img className="thing" src={require('../Assets/thing.png')}></img></Col>
+							<Col md="2"></Col>
 							<Col md="8"><h2 className="whatHeader">What IS HackCWRU 5?</h2></Col>
 							<Col md="2"></Col>
 						</Row>

@@ -6,18 +6,21 @@
 
 .faq {
   height: 100vh;
+  position: relative;
 }
 
 .thing2 {
   position: absolute;
+  float:left;
   height: 50vh;
-  top: 30vh;
 }
 
 .thing3 {
   position: absolute;
-  height: 65vh;
+  float:right;
   right:0;
+  height: 65vh;
+  top:25vh;
 }
 
 .bounding_box {

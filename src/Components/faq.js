@@ -14,10 +14,13 @@ class Faq extends Component {
     	return (
       	<div className="App">
         	<section className="faq">
+						<img className="thing2" src={require('../Assets/thing2.png')}></img>
+						<img className="thing3" src={require('../Assets/thing3.png')}></img>
 						<Row>
-							<Col md="2"><img className="thing2" src={require('../Assets/thing2.png')}></img></Col>
+
+							<Col md="2"></Col>
 							<Col md="8"><h2 className="faq_header">FAQs</h2></Col>
-							<Col md="2"><img className="thing3" src={require('../Assets/thing3.png')}></img></Col>
+							<Col md="2"></Col>
 						</Row>
 						<Row>
 							<Col md="2"></Col>
