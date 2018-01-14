@@ -1,14 +1,24 @@
 .thing {
-  position: absolute;
-  height: 65vh;
+  height:90vh;
+}
+.whatHackCWRU {
+  display: flex;
 }
 
-.whatHackCWRU {
-  height: 100vh;
+.whatContainerText {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+}
+
+.sideImage1 {
+  width:15%;
 }
 
 .whatText {
   font-size: 20px;
+  margin-left: 50px;
+  width:80%;
 }
 
 .whatHeader {
@@ -20,4 +30,14 @@
 @font-face {
 font-family: "womby";
 src: url("Womby-Regular.ttf");
+}
+
+@media only screen and (max-width: 900px) {
+    .thing {
+			display: none;
+		}
+    .whatText {
+      font-size: 20px;
+      margin-left: 0px;
+    }
 }

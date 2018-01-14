@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button, Row, Col, Panel, Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../Assets/faq.css';
 
 class Faq_component extends Component {
@@ -39,23 +38,15 @@ class Faq_component extends Component {
 
   render() {
     return(
-      <div className="App">
+      <div className="comp1">
         <div className="bounding_box">
-          <Row>
-            <Col md="2">
-              <a onClick={this.handleClick} className="theplus_thingy">{this.state.extend}</a>
-            </Col>
-            <Col md="10">
-              <h4>{this.state.title}</h4>
-            </Col>
-          </Row>
-          <Row>
-            <Col md="3">
-            </Col>
-            <Col md="9">
-                <p>{this.state.paragraph}</p>
-            </Col>
-          </Row>
+          <div className="header">
+            <a onClick={this.handleClick} className="theplus_thingy">{this.state.extend}</a>
+          </div>
+          <div className="description">
+            <h4>{this.state.title}</h4>
+            <p>{this.state.paragraph}</p>
+          </div>
         </div>
       </div>
     );
