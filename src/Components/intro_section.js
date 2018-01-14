@@ -14,10 +14,11 @@ class Intro_Section extends Component {
     	return (
       	<div className="Intro_Section">
 					<div className="center_row">
-						<Logo
-							className="logo"
-							animation_cycle = {'0'}
-						/>
+						<div className="logoContainer">
+							<Logo
+								animation_cycle = {'0'}
+							/>
+						</div>
 						<div className="introText" >
 							<img className="title_image" src={require('../Assets/hackCWRU_Title.png')}></img>
 							<h3 className="university">Case Western<br></br> Reserve University</h3>
