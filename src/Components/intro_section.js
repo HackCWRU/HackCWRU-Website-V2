@@ -15,17 +15,17 @@ class Intro_Section extends Component {
       	<div className="Intro_Section">
 					<div className="center_row">
 	          	<Row>
-								<Col className="introText" md={7} >
-									<h1><img className="title_image" src={require('../Assets/hackCWRU_Title.png')}></img></h1>
-									<h3 className="university">Case Western<br></br> Reserve University</h3>
-									<h3>February 16-18, 2018</h3>
-									<div className="butSty"><Button bsSize="large" block >Register</Button></div>
-								</Col>
 								<Col md ={5}>
 									<Logo
 										className="logo"
 										animation_cycle = {'0'}
 									/>
+								</Col>
+								<Col className="introText" md={7} >
+									<h1><img className="title_image" src={require('../Assets/hackCWRU_Title.png')}></img></h1>
+									<h3 className="university">Case Western<br></br> Reserve University</h3>
+									<h3>February 16-18, 2018</h3>
+									<div className="butSty"><Button bsSize="large" block >Register</Button></div>
 								</Col>
 							</Row>
 					</div>

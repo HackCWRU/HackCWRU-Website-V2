@@ -28,31 +28,34 @@ class MenuBar  extends Component {
     const link = "https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=gray";
     return(
       <div>
-        <Navbar className="menuBar">
+        <Navbar className="menuBar" collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
               <a href="#home"><span className="menuBarText">hackCWRU Logo Here</span></a>
             </Navbar.Brand>
+            <Navbar.Toggle />
           </Navbar.Header>
-          <Nav>
-            <NavItem eventKey={1} href="#">
-              ABOUT
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-              TRACK
-            </NavItem>
-            <NavItem eventKey={3} href="#">
-              FAQ
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-              SPONSORS
-            </NavItem>
-          </Nav>
-          <Nav pullRight>
-				<NavItem eventKey={1} href="#">
-          <a Id="mlh-trust-badge" style={mlh} href={link} target="_blank"><img src={imgLink} alt="Major League Hacking 2017 Hackathon Season" style={mlhLogo} /></a>
-				</NavItem>
-			</Nav>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem eventKey={1} href="#">
+                ABOUT
+              </NavItem>
+              <NavItem eventKey={2} href="#">
+                TRACK
+              </NavItem>
+              <NavItem eventKey={3} href="#">
+                FAQ
+              </NavItem>
+              <NavItem eventKey={2} href="#">
+                SPONSORS
+              </NavItem>
+            </Nav>
+            <Nav pullRight>
+  				        <NavItem eventKey={1} href="#">
+                      <a Id="mlh-trust-badge" style={mlh} href={link} target="_blank"><img src={imgLink} alt="Major League Hacking 2017 Hackathon Season" style={mlhLogo} /></a>
+  				        </NavItem>
+  			   </Nav>
+        </Navbar.Collapse>
         </Navbar>
       </div>
     );
