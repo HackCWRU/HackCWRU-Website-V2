@@ -1,9 +1,38 @@
+
 .trackSection {
 	height:100vh;
+	align-self: center;
+
 }
 
 .trackHeader {
   font-size: 50px;
   color: #24408e;
+  font-family: womby;
+}
+
+
+.trackHeader-fin {
+  font-size: 50px;
+  color: #FFF079;
+  font-family: womby;
+}
+
+
+.trackHeader-civic {
+  font-size: 50px;
+  color: #8EEDFF;
+  font-family: womby;
+}
+
+.trackHeader-health {
+  font-size: 50px;
+  color: #FF7082;
+  font-family: womby;
+}
+
+.trackHeader-maker {
+  font-size: 50px;
+  color: #12437B;
   font-family: womby;
 }
