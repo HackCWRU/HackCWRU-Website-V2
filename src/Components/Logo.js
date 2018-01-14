@@ -12,7 +12,6 @@ class Logo extends Component {
     const logoSytle = {
       position:'relative',
       width:"100%",
-      top:"-60px",
     }
     return(
       <div className="logo">

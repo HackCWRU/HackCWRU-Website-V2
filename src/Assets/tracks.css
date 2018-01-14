@@ -20,8 +20,10 @@
 }
 
 .trackImageContainer {
-	width: 200px;
+	width: 100px;
 	margin-right: 50px;
+	flex-grow: 10;
+	flex-shrink: 0;
 }
 
 .trackTextContainer {
@@ -39,32 +41,31 @@
 	margin-left: 50px;
 }
 
-
 .trackHeader {
   font-size: 50px;
   color: #24408e;
   font-family: womby;
 }
 
-
 .fin {
   color: #FFF079;
 }
 
-.trackHeader-civic {
-  font-size: 50px;
+.civic {
   color: #8EEDFF;
-  font-family: womby;
 }
 
-.trackHeader-health {
-  font-size: 50px;
+.health {
   color: #FF7082;
-  font-family: womby;
 }
 
-.trackHeader-maker {
-  font-size: 50px;
+.maker {
   color: #12437B;
-  font-family: womby;
+}
+
+@media only screen and (max-width: 700px) {
+    .track {
+      flex-direction: column;
+			margin-left: 0;
+    }
 }

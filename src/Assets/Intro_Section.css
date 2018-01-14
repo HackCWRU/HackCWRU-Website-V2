@@ -4,6 +4,7 @@
 	align-content: center;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .center_row {
@@ -11,6 +12,7 @@
 	justify-content:center;
 	align-items:center;
 	align-content: center;
+	width:90%;
 }
 
 .logoContainer {
@@ -18,7 +20,7 @@
 }
 
 .logo {
-	display: flex;
+	height: 100%;
 }
 
 .university {
@@ -32,8 +34,8 @@ font-family: "womby";
 src: url("Womby-Regular.ttf");
 }
 
-@media only screen and (max-width: 900px) {
-    .logo {
+@media only screen and (max-width: 700px) {
+    .logoContainer {
 			display: none;
 		}
 }

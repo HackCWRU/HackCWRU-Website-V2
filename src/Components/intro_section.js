@@ -16,7 +16,6 @@ class Intro_Section extends Component {
 					<div className="center_row">
 						<div className="logoContainer">
 							<Logo
-								animation_cycle = {'0'}
 							/>
 						</div>
 						<div className="introText" >

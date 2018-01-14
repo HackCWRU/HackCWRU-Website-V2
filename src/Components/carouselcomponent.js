@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Carousel } from 'react-bootstrap';
+import { Carousel} from 'react-bootstrap';
 
 class CarouselComponent extends React.Component {
 	constructor(...args) {

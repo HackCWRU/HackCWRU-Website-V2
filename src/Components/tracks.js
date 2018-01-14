@@ -32,7 +32,7 @@ class Tracks extends Component {
 									<img className="title_image" src={require('../Assets/track_civic.png')}></img>
 								</div>
 								<div className="trackTextContainer">
-									<h3 className="trackHeader-civic ">CIVIC</h3>
+									<h3 className="trackHeader civic">CIVIC</h3>
 										<p className="trackText">The Civic track looks at the all levels of connected devices, from local IoT networks to municipal systems and civic datasets. Create a new device for your smart home, or create something that benefits the community.</p>
 								</div>
 							</div>
@@ -42,7 +42,7 @@ class Tracks extends Component {
 									<img className="title_image" src={require('../Assets/track_healthcare.png')}></img>
 								</div>
 								<div className="trackTextContainer">
-									<h3 className="trackHeader-health">HEALTHCARE</h3>
+									<h3 className="trackHeader health">HEALTHCARE</h3>
 										<p className="trackText">The healthcare track enables hackers to tackle problems relating to medicine, healthcare, and public health. Whether it is using public health data to analyze population wellness or using mobile technology to improve patient quality of and access to care, there has never been a better opportunity to match engineering solutions with real healthcare problems. If your background is in medicine or public health, partner with an engineer and inform the science behind your project!</p>
 								</div>
 							</div>
@@ -52,7 +52,7 @@ class Tracks extends Component {
 									<img className="title_image" src={require('../Assets/track_maker.png')}></img>
 								</div>
 								<div className="trackTextContainer">
-									<h3 className="trackHeader-maker">MAKER</h3>
+									<h3 className="trackHeader maker">MAKER</h3>
 										<p className="trackText">The Maker track enables hackers to unleash their inner maker. Invent something new, or just tinker with a thing to make it do something different. The only requirement is that you Did It Yourself--with your team of 4, of course.</p>
 								</div>
 							</div>
