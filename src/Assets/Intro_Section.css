@@ -13,9 +13,12 @@
 	align-content: center;
 }
 
+.logoContainer {
+	margin-right: 50px;
+}
+
 .logo {
 	display: flex;
-	padding:50px;
 }
 
 .university {
