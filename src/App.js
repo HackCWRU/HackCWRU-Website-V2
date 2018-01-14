@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Appp">
         <MenuBar />
         <Intro_Section />
         <WhathackCWRU />

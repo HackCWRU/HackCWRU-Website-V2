@@ -1,8 +1,44 @@
 
 .trackSection {
-	align-self: center;
-
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
+
+.Trackheader {
+	width: 85%;
+}
+
+.bodyTextTrack {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+
+.title_image {
+	width: 100%;
+}
+
+.trackImageContainer {
+	width: 200px;
+	margin-right: 50px;
+}
+
+.trackTextContainer {
+	flex-shrink: 10;
+}
+
+.trackText {
+	font-size: 15px;
+}
+
+.track {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin-left: 50px;
+}
+
 
 .trackHeader {
   font-size: 50px;
@@ -11,12 +47,9 @@
 }
 
 
-.trackHeader-fin {
-  font-size: 50px;
+.fin {
   color: #FFF079;
-  font-family: womby;
 }
-
 
 .trackHeader-civic {
   font-size: 50px;
