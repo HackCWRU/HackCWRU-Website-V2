@@ -4,7 +4,7 @@ import Intro_Section from './Components/intro_section';
 import WhathackCWRU from './Components/whathackCWRU';
 import Tracks from './Components/tracks';
 import Faq from './Components/faq';
-import Carousel from './Components/carousel';
+import CarouselComponent from './Components/carouselcomponent';
 import Sponsors from './Components/sponsors';
 import MenuBar from './Components/MenuBar';
 
@@ -23,7 +23,7 @@ class App extends Component {
         <WhathackCWRU />
         <Tracks />
         <Faq />
-        <Carousel />
+        <CarouselComponent />
         <Sponsors />
       </div>
     );
