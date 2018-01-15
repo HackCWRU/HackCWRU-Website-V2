@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Carousel} from 'react-bootstrap';
+import '../Assets/carousel.css';
+
 
 class CarouselComponent extends React.Component {
 	constructor(...args) {
@@ -16,6 +18,7 @@ class CarouselComponent extends React.Component {
 
 	render() {
 		return (
+			<section className="carousel">
 			<div display={"inline-block"} width={"70%"}>
 				<Carousel
 					onSelect={this.handleSelect}
@@ -98,6 +101,7 @@ class CarouselComponent extends React.Component {
 
 					</Carousel>
 				</div>
+				</section>
 			);
   	}
 
