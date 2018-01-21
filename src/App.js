@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Hackry from 'hackry';
+
 import Intro_Section from './Components/intro_section';
 import WhathackCWRU from './Components/whathackCWRU';
 import Tracks from './Components/tracks';
@@ -16,24 +18,50 @@ import './Assets/menuBar.css';
 class App extends Component {
   constructor(props) {
     super(props);
+
+    this.hackry = new Hackry('NQZBtoIMDJ');
+
+    this.state = {
+        faqs: null,
+        events: null
+    };
+
     this.goToAbout = this.goToAbout.bind(this);
     this.goToTrack = this.goToTrack.bind(this);
     this.goToFAQ = this.goToFAQ.bind(this);
     this.goToSponsor = this.goToSponsor.bind(this);
   }
 
-  goToAbout(){
-   goToAnchor('about');
- }
- goToTrack(){
-  goToAnchor('track');
-}
-goToFAQ(){
- goToAnchor('faq');
-}
-goToSponsor(){
- goToAnchor('sponsors');
-}
+  goToAbout() {
+    goToAnchor('about');
+  }
+
+  goToTrack() {
+    goToAnchor('track');
+  }
+
+  goToFAQ() {
+    goToAnchor('faq');
+  }
+
+  goToSponsor() {
+    goToAnchor('sponsors');
+  }
+
+  componentWillMount() {
+    this.hackry.faqs((faqs) => {
+      this.setState({
+        faqs: faqs
+      });
+    });
+
+    this.hackry.events((events) => {
+      this.setState({
+        events: events
+      });
+    });
+  }
+
 
   render() {
     const mlh = {
@@ -97,7 +125,7 @@ goToSponsor(){
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'faq'}>
-          <div><Faq /></div>
+          <div><Faq faqs={this.state.faqs}/></div>
         </ScrollableAnchor>
 
         <CarouselComponent />

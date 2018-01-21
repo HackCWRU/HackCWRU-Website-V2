@@ -8,25 +8,6 @@ import Logo from './Logo.js'
 
 class Intro_Section extends Component {
 
-	constructor(props) {
-		super(props);
-		this.hackry = new Hackry('NQZBtoIMDJ');
-	}
-
-	componentWillMount() {
-    this.hackry.faqs((faqs) => {
-      this.setState({
-        faqs: faqs
-      });
-    });
-
-    this.hackry.events((events) => {
-      this.setState({
-        events: events
-      });
-    });
-  }
-
 	render() {
     	return (
       	<div className="Intro_Section">
