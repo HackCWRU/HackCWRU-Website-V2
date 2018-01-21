@@ -58,7 +58,7 @@ goToSponsor(){
         <Navbar className="menuBar" collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#home"><span className="menuBarText">hackCWRU Logo Here</span></a>
+              <a href="#home"><span className="menuBarText">hackCWRU</span></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
