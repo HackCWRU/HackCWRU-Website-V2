@@ -12,7 +12,7 @@
   "author": "Sapchan",
   "license": "ISC",
   "dependencies": {
-    "hackry": "^1.0.1",
+    "hackry": "^1.1.1",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^15.5.4",
