@@ -8,7 +8,7 @@ class Button extends Component {
     return (
       <div>
         <button className={this.props.color}>
-          {this.props.title}
+          <a className="links" target="_blank" href={this.props.externalLink}>{this.props.title}</a>
         </button>
       </div>
     )
@@ -19,9 +19,7 @@ class Button extends Component {
 
     return (
       <div>
-        {externalLink ? <a target="_blank" href={externalLink}>
-          {this.renderButton()}
-        </a> : this.renderButton()}
+        {this.renderButton()}
       </div>
     );
   }

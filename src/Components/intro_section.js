@@ -43,6 +43,13 @@ class Intro_Section extends Component {
 	              title='Register'
 	              externalLink='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'
 	              color='red' />
+							<br/>
+							<Button
+								title="Mentor"
+								externalLink='https://docs.google.com/forms/d/1tOQuo9qX7XM1xhtH1b3pJAHezjANAUCNrrtWUolWcR8/edit'
+								color="darkBlue"
+							/>
+
 						</div>
 					</div>
       	</div>
