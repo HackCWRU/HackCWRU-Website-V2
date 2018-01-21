@@ -77,7 +77,7 @@ goToSponsor(){
                 <a className="menuBarText" href="#sponsors" onClick={this.goToSponsor}>SPONSORS</a>
               </NavItem>
             </Nav>
-            <Nav pullRight>
+            <Nav className="dissapear" pullRight>
   				        <NavItem eventKey={1} href="#">
                       <a Id="mlh-trust-badge" style={mlh} href={link} target="_blank"><img src={imgLink} alt="Major League Hacking 2017 Hackathon Season" style={mlhLogo} /></a>
   				        </NavItem>

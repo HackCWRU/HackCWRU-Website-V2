@@ -17,3 +17,11 @@
   text-decoration: underline;
   color:#ffffff;
 }
+
+@media only screen and (max-width: 700px) {
+
+  .dissapear {
+    display: none;
+  }
+
+}

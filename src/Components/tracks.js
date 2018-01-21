@@ -42,7 +42,7 @@ class Tracks extends Component {
 									<img className="title_image" src={require('../Assets/track_healthcare.png')}></img>
 								</div>
 								<div className="trackTextContainer">
-									<h3 className="trackHeader health">HEALTHCARE</h3>
+									<h3 className="trackHeader health">HEALTH</h3>
 										<p className="trackText">The healthcare track enables hackers to tackle problems relating to medicine, healthcare, and public health. Whether it is using public health data to analyze population wellness or using mobile technology to improve patient quality of and access to care, there has never been a better opportunity to match engineering solutions with real healthcare problems. If your background is in medicine or public health, partner with an engineer and inform the science behind your project!</p>
 								</div>
 							</div>
