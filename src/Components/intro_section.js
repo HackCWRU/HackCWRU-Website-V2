@@ -20,16 +20,21 @@ class Intro_Section extends Component {
 							<img className="title_image" src={require('../Assets/hackCWRU_Title.png')}></img>
 							<h3 className="university">Case Western<br></br> Reserve University</h3>
 							<h3>February 16-18, 2018</h3>
+							<a href='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'>
 							<Button
 	              title='Register'
 	              externalLink='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'
 	              color='red' />
+							</a>
 							<br/>
+							<a href='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'>
 							<Button
+								href='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'
 								title="Mentor"
 								externalLink='https://docs.google.com/forms/d/e/1FAIpQLScLpa8-3m0-k6wN4Rz4xmail7i5g79SIfuQ6JrutJybYGIGsg/viewform?usp=sf_link'
 								color="darkBlue"
 							/>
+							</a>
 
 						</div>
 					</div>
