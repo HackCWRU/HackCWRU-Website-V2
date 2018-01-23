@@ -27,7 +27,7 @@ class Intro_Section extends Component {
 							<br/>
 							<Button
 								title="Mentor"
-								externalLink='https://docs.google.com/forms/d/1tOQuo9qX7XM1xhtH1b3pJAHezjANAUCNrrtWUolWcR8/edit'
+								externalLink='https://docs.google.com/forms/d/e/1FAIpQLScLpa8-3m0-k6wN4Rz4xmail7i5g79SIfuQ6JrutJybYGIGsg/viewform?usp=sf_link'
 								color="darkBlue"
 							/>
 
