@@ -15,7 +15,7 @@ class WhathackCWRU extends Component {
 							<img className="thing" src={require('../Assets/thing.png')}></img>
 						</div>
 						<div className="whatContainerText">
-							<h2 className="whatHeader">What IS HackCWRU 5?</h2>
+							<h2 className="whatHeader">What IS HackCWRU?</h2>
 							<p className="whatText">
 							hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.
 							<br></br><br></br>Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks.

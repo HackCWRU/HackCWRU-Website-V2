@@ -73,3 +73,12 @@
       display: none;
     }
 }
+
+.nohover {
+  color: #000000;
+  text-decoration: none
+}
+.nohover:hover{
+  color: #000000;
+  text-decoration: none
+}

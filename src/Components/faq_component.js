@@ -39,6 +39,7 @@ class Faq_component extends Component {
   render() {
     return(
       <div className="comp1">
+      <a onClick={this.handleClick} className="nohover">
         <div className="bounding_box">
           <div className="header">
             <a onClick={this.handleClick} className="theplus_thingy">{this.state.extend}</a>
@@ -48,6 +49,7 @@ class Faq_component extends Component {
             <p>{this.state.paragraph}</p>
           </div>
         </div>
+        </a>
       </div>
     );
   }
