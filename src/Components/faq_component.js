@@ -38,11 +38,11 @@ class Faq_component extends Component {
 
   render() {
     return(
-      <div className="comp1">
+      <div onClick={this.handleClick} className="comp1">
       <a onClick={this.handleClick} className="nohover">
         <div className="bounding_box">
           <div className="header">
-            <a onClick={this.handleClick} className="theplus_thingy">{this.state.extend}</a>
+            <a className="theplus_thingy">{this.state.extend}</a>
           </div>
           <div className="description">
             <h4>{this.state.title}</h4>
