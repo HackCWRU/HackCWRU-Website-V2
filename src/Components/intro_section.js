@@ -27,7 +27,7 @@ class Intro_Section extends Component {
 	              color='red' />
 							</a>
 							<br/>
-							<a href='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'>
+							<a href='https://docs.google.com/forms/d/e/1FAIpQLScLpa8-3m0-k6wN4Rz4xmail7i5g79SIfuQ6JrutJybYGIGsg/viewform?usp=sf_link'>
 							<Button
 								href='https://dashboard.hackry.io/register?hackathonId=NQZBtoIMDJ'
 								title="Mentor"
