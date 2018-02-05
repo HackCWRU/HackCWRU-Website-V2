@@ -44,7 +44,7 @@ class Sponsors extends Component {
 							</div>
 							<div className="t6">
 								<img className="BAWLS" src={require('../Assets/companyLogo/bawls.png')}></img>
-								<img className="UltraPress" src={require('../Assets/companyLogo/ultrapress.png')}></img>
+								{/*<h6>Ultrapress</h6>*/}
 								<img className="stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img>
 							</div>
 						</div>
