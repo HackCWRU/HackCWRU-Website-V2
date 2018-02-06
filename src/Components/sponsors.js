@@ -16,36 +16,43 @@ class Sponsors extends Component {
 							<h2 className="sHeader">A Special Thanks To...</h2>
 						</div>
 						<div className="sBody">
-							<div className="t1">
-								<img className="rockwell" src={require('../Assets/companyLogo/rockwell.svg')}></img>
+							<div className="t12">
+								<a href="https://www.key.com/personal/index.jsp" target="_blank"><img className="coLo KeyBank" src={require('../Assets/companyLogo/KeyBank_logo.svg')}></img></a>
 							</div>
-							{/*<div className="t2">
-								<h2>EP</h2>
-								<h2>JP Morgan and Chase</h2>
-							</div>*/}
+							<div className="t1">
+								<a href="https://www.rockwellautomation.com/" target="_blank"><img className="coLo rockwell" src={require('../Assets/companyLogo/rockwell.svg')}></img></a>
+
+							</div>
+							<div className="t2">
+								<a href="https://www.tek.com/" target="_blank"><img className="coLo Tektronix" src={require('../Assets/companyLogo/Keithley.svg')}></img></a>
+								<a href="https://www.embeddedplanet.com/" target="_blank"><img className="coLo EP" src={require('../Assets/companyLogo/embeddedPlanet.svg')}></img></a>
+									{/*
+										<h2>JP Morgan and Chase</h2>
+									*/}
+							</div>
 							<div className="t3">
-								<img className="ETSY" src={require('../Assets/companyLogo/etsy.svg')}></img>
-								{/*<h3>IBM</h3>
-								<h3>Lincoln Electric</h3>
-								<h3>MRI Software</h3>
+								<a href="https://www.etsy.com/" target="_blank"><img className="coLo ETSY" src={require('../Assets/companyLogo/etsy.svg')}></img></a>
+								<a href="https://www.mrisoftware.com/" target="_blank"><img className="coLo MRI" src={require('../Assets/companyLogo/MRI.png')}></img></a>
+								<a href="http://www.lincolnelectric.com/" target="_blank"><img className="coLo LI" src={require('../Assets/companyLogo/lincolnElectric.png')}></img></a>
+							{/*<h3>IBM</h3>
 								<h3>P&G</h3> */}
 							</div>
 							<div className="t4">
-								<img className="CoverMyMeds" src={require('../Assets/companyLogo/CoverMyMeds.svg')}></img>
-								<img className="Hyland" src={require('../Assets/companyLogo/hyland.png')}></img>
-								<img className="NS" src={require('../Assets/companyLogo/NS.svg')}></img>
+								<a href="https://www.covermymeds.com/main/" target="_blank"><img className="coLo CoverMyMeds" src={require('../Assets/companyLogo/CoverMyMeds.svg')}></img></a>
+								<a href="https://www.hyland.com/" target="_blank"><img className="coLo Hyland" src={require('../Assets/companyLogo/hyland.png')}></img></a>
+								<a href="https://nottinghamspirk.com" target="_blank"><img className="coLo NS" src={require('../Assets/companyLogo/NS.svg')}></img></a>
 							</div>
 							<div className="t5">
-								<img className="Linode" src={require('../Assets/companyLogo/linode.svg')}></img>
-								<img className="Pandata" src={require('../Assets/companyLogo/pandata.png')}></img>
-								{/*<h5>Assurant Labs</h5>
-								<h5>Plug and Play Ventures</h5>*/}
-								<img className="JumpStart" src={require('../Assets/companyLogo/jumpstart.png')}></img>
+								<a href="https://www.linode.com/" target="_blank"><img className="coLo Linode" src={require('../Assets/companyLogo/linode.svg')}></img></a>
+								<a href="http://pandata.co/" target="_blank"><img className="coLo Pandata" src={require('../Assets/companyLogo/pandata.png')}></img></a>
+								<a href="http://plugandplaytechcenter.com/" target="_blank"><img className="coLo PNP" src={require('../Assets/companyLogo/PNP.svg')}></img></a>
+								{/*<h5>Assurant Labs</h5>*/}
+								<a href="https://www.jumpstartinc.org/" target="_blank"><img className="coLo JumpStart" src={require('../Assets/companyLogo/jumpstart.png')}></img></a>
 							</div>
 							<div className="t6">
-								<img className="BAWLS" src={require('../Assets/companyLogo/bawls.png')}></img>
-								<img className="UltraPress" src={require('../Assets/companyLogo/ultrapress.png')}></img>
-								<img className="stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img>
+								<a href="http://www.bawls.com/" target="_blank"><img className="coLo BAWLS" src={require('../Assets/companyLogo/bawls.png')}></img></a>
+								<a href="https://ultrapress.com" target="_blank"><img className="coLo UltraPress" src={require('../Assets/companyLogo/ultrapress.png')}></img></a>
+								<a href="https://www.stickermule.com" target="_blank"><img className="coLo stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img></a>
 							</div>
 						</div>
 					</section>

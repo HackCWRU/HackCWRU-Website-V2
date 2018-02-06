@@ -30,9 +30,20 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 25vh;
+}
+
+.t12 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 	margin-top: 100px;
 	width: 100%;
 	height: 25vh;
+
 }
 
 .t2 {
@@ -40,7 +51,6 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
 }
 
 .t3 {
@@ -48,7 +58,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .t4 {
@@ -56,7 +66,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .t5 {
@@ -64,7 +74,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .t6 {
@@ -72,52 +82,68 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .rockwell {
 	width: auto;
-	height:100%;
+	height:110px;
+	padding-right: 50px;
+}
+.KeyBank {
+	width: auto;
+	height:150px;
+
 }
 
-.t2 > img, .t2 > h2 {
-	max-width: 50%;
-	height: auto;
+.t2 .coLo{
 	margin: auto;
+	width: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	height:110px;
 }
 
-.t3 > img, .t3 > h3 {
-	max-width: 40%;
-	height: auto;
+.t3 .coLo {
 	margin: auto;
+	width: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	height:90px;
 }
 
-.t4 > img, .t4 > h4 {
-	max-width: 20%;
+.t4 .coLo {
 	margin: auto;
-	height: auto;
+	height:60px;
+	padding-left: 70px;
+	padding-right: 70px;
+	width: auto;
 }
 
-.t5 > img, .t5 > h5 {
-	max-width: 15%;
+.t5 .coLo {
 	margin: auto;
-	height: auto;
+	height:80px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: auto;
 }
 
-.t6 > img, .t6 > h6 {
-	max-width: 15%;
+.t6 .coLo {
 	margin: auto;
-	height: auto;
+	height:50px;
+	padding-left: 70px;
+	padding-right: 70px;
+	width: auto;
 }
 
 @media only screen and (max-width: 900px) {
-    img {
+    .coLo {
 			max-width: 100% !important;
 			width: 100% !important;
 			height: auto !important;
 			padding-top: 50px;
 		}
-		.rockwell {
+		.rockwell, .KeyBank {
 			width: 100%;
 			height:auto;
 		}
