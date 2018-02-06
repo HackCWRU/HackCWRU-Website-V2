@@ -52,7 +52,7 @@ class Sponsors extends Component {
 							<div className="t6">
 								<a href="http://www.bawls.com/" target="_blank"><img className="coLo BAWLS" src={require('../Assets/companyLogo/bawls.png')}></img></a>
 								<a href="https://ultrapress.com" target="_blank"><img className="coLo UltraPress" src={require('../Assets/companyLogo/ultrapress.png')}></img></a>
-								<a href="https://www.stickermule.com" target="_blank"><img className="coLo stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img></a>
+								<a href="https://www.stickermule.com/uses/laptop-stickers?utm_source=hackathon&utm_campaign=hackathon-sponsorship&utm_medium=referral" target="_blank"><img className="coLo stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img></a>
 							</div>
 						</div>
 					</section>
