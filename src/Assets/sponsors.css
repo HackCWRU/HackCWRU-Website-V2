@@ -136,12 +136,26 @@
 	width: auto;
 }
 
+.coLo {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+	transition: all .25s ease;
+}
+
+.coLo:hover {
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
+
 @media only screen and (max-width: 900px) {
     .coLo {
 			max-width: 100% !important;
 			width: 100% !important;
 			height: auto !important;
 			padding-top: 50px;
+			filter: grayscale(0%);
+			-webkit-filter: grayscale(0%);
 		}
 		.rockwell, .KeyBank {
 			width: 100%;

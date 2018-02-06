@@ -45,11 +45,11 @@ class Sponsors extends Component {
 							<div className="t5">
 								<a href="https://www.linode.com/" target="_blank"><img className="coLo Linode" src={require('../Assets/companyLogo/linode.svg')}></img></a>
 								<a href="http://pandata.co/" target="_blank"><img className="coLo Pandata" src={require('../Assets/companyLogo/pandata.png')}></img></a>
-								<a href="http://plugandplaytechcenter.com/" target="_blank"><img className="coLo PNP" src={require('../Assets/companyLogo/PNP.svg')}></img></a>
-								{/*<h5>Assurant Labs</h5>*/}
+								<a href="https://www.assurantlabs.com/" target="_blank"><img className="coLo Assurant" src={require('../Assets/companyLogo/assurantLabs.png')}></img></a>
 								<a href="https://www.jumpstartinc.org/" target="_blank"><img className="coLo JumpStart" src={require('../Assets/companyLogo/jumpstart.png')}></img></a>
 							</div>
 							<div className="t6">
+								<a href="http://plugandplaytechcenter.com/" target="_blank"><img className="coLo PNP" src={require('../Assets/companyLogo/PNP.svg')}></img></a>
 								<a href="http://www.bawls.com/" target="_blank"><img className="coLo BAWLS" src={require('../Assets/companyLogo/bawls.png')}></img></a>
 								<a href="https://ultrapress.com" target="_blank"><img className="coLo UltraPress" src={require('../Assets/companyLogo/ultrapress.png')}></img></a>
 								<a href="https://www.stickermule.com/uses/laptop-stickers?utm_source=hackathon&utm_campaign=hackathon-sponsorship&utm_medium=referral" target="_blank"><img className="coLo stickerMule" src={require('../Assets/companyLogo/stickerMule.svg')}></img></a>
