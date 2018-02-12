@@ -8,6 +8,7 @@ import Tracks from './Components/tracks';
 import Faq from './Components/faq';
 import CarouselComponent from './Components/carouselcomponent';
 import Sponsors from './Components/sponsors';
+import Schedule from './Components/Schedule';
 
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {goToAnchor} from 'react-scrollable-anchor';
@@ -42,6 +43,10 @@ class App extends Component {
 
   goToFAQ() {
     goToAnchor('faq');
+  }
+
+  goToSchedule() {
+    goToAnchor('schedule')
   }
 
   goToSponsor() {
@@ -99,13 +104,17 @@ class App extends Component {
               <NavItem eventKey={1}>
                 <a className="menuBarText" href="#about" onClick={this.goToAbout}>ABOUT</a>
               </NavItem>
+              {this.state.events.length > 0 &&
+                <NavItem eventKey={4}>
+                  <a className="menuBarText" href="#schedule" onClick={this.goToSchedule}>SCHEDULE</a>
+                </NavItem>}
               <NavItem eventKey={2}>
                 <a className="menuBarText" href="#track" onClick={this.goToTrack}>TRACKS</a>
               </NavItem>
               <NavItem eventKey={3}>
                 <a className="menuBarText" href="#faq" onClick={this.goToFAQ}>FAQ</a>
               </NavItem>
-              <NavItem eventKey={4}>
+              <NavItem eventKey={5}>
                 <a className="menuBarText" href="#sponsors" onClick={this.goToSponsor}>SPONSORS</a>
               </NavItem>
             </Nav>
@@ -121,6 +130,11 @@ class App extends Component {
         <ScrollableAnchor id={'about'}>
           <div><WhathackCWRU /></div>
         </ScrollableAnchor>
+
+        {this.state.events.length > 0 &&
+          <ScrollableAnchor id={'schedule'}>
+            <div><Schedule events={this.state.events} /></div>
+          </ScrollableAnchor>}
 
         <ScrollableAnchor id={'track'}>
           <div><Tracks /></div>

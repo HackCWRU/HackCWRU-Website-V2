@@ -1,0 +1,10 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule .title {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}
