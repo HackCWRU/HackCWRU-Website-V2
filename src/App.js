@@ -22,8 +22,8 @@ class App extends Component {
     this.hackry = new Hackry('NQZBtoIMDJ');
 
     this.state = {
-        faqs: null,
-        events: null
+        faqs: [],
+        events: []
     };
 
     this.goToAbout = this.goToAbout.bind(this);
@@ -55,7 +55,11 @@ class App extends Component {
       });
     });
 
-    this.hackry.events((events) => {
+    this.hackry.events({
+      timeZone: 'America/New_York',
+      startDateFormat: 'DD h:mm a',
+      endDateFormat: 'DD h:mm a'
+    }, (events) => {
       this.setState({
         events: events
       });
