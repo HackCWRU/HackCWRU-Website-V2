@@ -16,6 +16,11 @@
   font-family: womby;
 }
 
+.schedule .dayOfWeek {
+  font-size: 50px;
+  font-family: womby;
+}
+
 .schedule .event {
   font-size: 17px;
   margin-bottom: 20px;
