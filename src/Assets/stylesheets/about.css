@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.about .container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.about .header {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}
+
+.about .description {
+  font-size: 20px;
+}
+
+
+@font-face {
+  font-family: "womby";
+  src: url("../Womby-Regular.ttf");
+}

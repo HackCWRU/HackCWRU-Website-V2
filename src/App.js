@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Hackry from 'hackry';
 
 import Intro_Section from './Components/intro_section';
-import WhathackCWRU from './Components/whathackCWRU';
+import About from './Components/About';
 import Tracks from './Components/tracks';
 import Faq from './Components/faq';
 import CarouselComponent from './Components/carouselcomponent';
@@ -128,7 +128,7 @@ class App extends Component {
         <Intro_Section />
 
         <ScrollableAnchor id={'about'}>
-          <div><WhathackCWRU /></div>
+          <div><About /></div>
         </ScrollableAnchor>
 
         {this.state.events.length > 0 &&
