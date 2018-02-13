@@ -112,7 +112,7 @@ class App extends Component {
                 <a className="menuBarText" href="#track" onClick={this.goToTrack}>TRACKS</a>
               </NavItem>
               <NavItem eventKey={3}>
-                <a className="menuBarText" href="#faq" onClick={this.goToFAQ}>FAQ</a>
+                <a className="menuBarText" href="#faq" onClick={this.goToFAQ}>FAQS</a>
               </NavItem>
               <NavItem eventKey={5}>
                 <a className="menuBarText" href="#sponsors" onClick={this.goToSponsor}>SPONSORS</a>
