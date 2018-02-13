@@ -1,16 +1,14 @@
 import Event from './Event';
 import React from 'react';
-import '../Assets/schedule.css';
+import '../Assets/stylesheets/schedule.css';
 
 export default class Schedule extends React.Component {
 
   render() {
     return (
-      <div className='App'>
-        <section className='schedule'>
-          <div className='title'>
-            Schedule
-          </div>
+      <div className='schedule'>
+        <div className='container'>
+          <div className='header'>Schedule</div>
           {(this.props.events || []).map(event => {
             return (
               <Event
@@ -22,7 +20,7 @@ export default class Schedule extends React.Component {
                description={event.description} />
             )
           })}
-        </section>
+        </div>
       </div>
     )
 

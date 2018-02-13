@@ -1,0 +1,22 @@
+.schedule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.schedule .container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.schedule .header {
+  font-size: 50px;
+  color: #24408e;
+  font-family: womby;
+}
+
+@font-face {
+  font-family: "womby";
+  src: url("../Womby-Regular.ttf");
+}
