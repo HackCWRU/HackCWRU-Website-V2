@@ -15,67 +15,18 @@
   font-family: womby;
 }
 
-.firstImage {
-  width:15%;
-}
-
-.secondImage {
-  padding-top: 30vh;
-}
-
 .faq {
   display: flex;
-  flex-direction: row;
-  padding-top: 100px;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
-.content {
-  width: 90%;
+.faq .question {
+  font-size: 17px;
+  margin-bottom: 4px;
+  font-weight: 800;
 }
 
-.bounding_box {
-  border:2px solid #8EEEFF;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-}
-
-.header {
-  display: flex;
-}
-
-.comp1 {
-  padding-top: 10px;
-}
-
-.theplus_thingy {
-  font-size: 25px;
-  padding-left: 10px;
-  margin-right: 50px;
-  color: #FF6F82;
-  font-weight: bold;
-}
-
-.theplus_thingy:hover {
-  text-decoration:none;
-  color: #FF6F82;
-}
-
-@media only screen and (max-width: 900px) {
-    .thing2 {
-			display: none;
-		}
-
-    .thing3 {
-      display: none;
-    }
-}
-
-.nohover {
-  color: #000000;
-  text-decoration: none
-}
-.nohover:hover{
-  color: #000000;
-  text-decoration: none
+.faq .answer {
+  font-size: 17px;
 }

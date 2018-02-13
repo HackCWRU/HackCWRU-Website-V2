@@ -1,5 +1,5 @@
 import React from 'react';
-import Faq_component from './faq_component';
+import FAQ from './FAQ';
 import '../Assets/stylesheets/faqs.css';
 
 
@@ -14,13 +14,13 @@ class FAQs extends React.Component {
       	<div className="faqs">
         	<div className="container">
 						<div className="header">FAQs</div>
-						<div className="content">
+						<div>
 							{(this.props.faqs || []).map((faq, index) => {
 								return (
-									<Faq_component
+									<FAQ
 										key={index}
-										title={faq.question}
-										paragraph={faq.answer}
+										question={faq.question}
+										answer={faq.answer}
 									/>
 								)
 							})}
