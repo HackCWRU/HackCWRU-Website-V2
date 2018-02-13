@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Assets/tracks.css';
+import '../Assets/stylesheets/tracks.css';
 
 
 class Tracks extends Component {
@@ -10,11 +10,9 @@ class Tracks extends Component {
 
 	render() {
     	return (
-				<div className="App">
-					<section className="trackSection">
-						<div className="Trackheader">
-							<h2 className="trackHeader">Tracks</h2>
-						</div>
+				<div className="tracks">
+					<div className="container">
+						<div className="trackHeader">Tracks</div>
 						<div className="bodyTextTrack">
 
 							<div className="track">
@@ -57,7 +55,7 @@ class Tracks extends Component {
 								</div>
 							</div>
 						</div>
-					</section>
+					</div>
       	</div>
     	);
   	}

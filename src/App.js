@@ -4,7 +4,7 @@ import Hackry from 'hackry';
 
 import Intro_Section from './Components/intro_section';
 import About from './Components/About';
-import Tracks from './Components/tracks';
+import Tracks from './Components/Tracks';
 import Faq from './Components/faq';
 import CarouselComponent from './Components/carouselcomponent';
 import Sponsors from './Components/sponsors';

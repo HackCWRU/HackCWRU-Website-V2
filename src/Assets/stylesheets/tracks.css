@@ -1,18 +1,17 @@
-
-.trackSection {
+.tracks {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
+	align-items: center;
 }
 
-.Trackheader {
-	width: 85%;
+.tracks .container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
 }
 
 .bodyTextTrack {
 	display: flex;
 	flex-direction: column;
-	width: 85%;
 }
 
 .title_image {
@@ -37,8 +36,6 @@
 .track {
 	display: flex;
 	flex-direction: row;
-	width: 80%;
-	margin-left: 50px;
 }
 
 .trackHeader {
