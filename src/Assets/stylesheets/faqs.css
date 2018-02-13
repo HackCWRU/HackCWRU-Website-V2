@@ -1,15 +1,18 @@
-.faq_header {
+.faqs {
+	display: flex;
+	align-items: center;
+}
+
+.faqs .container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.faqs .header {
   font-size: 50px;
   color: #24408e;
   font-family: womby;
-}
-
-.thing2 {
-  height:50vh;
-}
-
-.thing3 {
-  height: 60vh;
 }
 
 .firstImage {
@@ -24,12 +27,6 @@
   display: flex;
   flex-direction: row;
   padding-top: 100px;
-}
-
-.cont {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
 }
 
 .content {

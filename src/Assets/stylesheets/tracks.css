@@ -1,6 +1,7 @@
 .tracks {
 	display: flex;
 	align-items: center;
+	margin-bottom: 100px;
 }
 
 .tracks .container {

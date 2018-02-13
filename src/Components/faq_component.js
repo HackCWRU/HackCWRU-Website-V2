@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Assets/faq.css';
+import '../Assets/stylesheets/faqs.css';
 
 class Faq_component extends Component {
   constructor(props) {

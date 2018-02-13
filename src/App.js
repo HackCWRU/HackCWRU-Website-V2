@@ -5,7 +5,7 @@ import Hackry from 'hackry';
 import Intro_Section from './Components/intro_section';
 import About from './Components/About';
 import Tracks from './Components/Tracks';
-import Faq from './Components/faq';
+import FAQs from './Components/FAQs';
 import CarouselComponent from './Components/carouselcomponent';
 import Sponsors from './Components/sponsors';
 import Schedule from './Components/Schedule';
@@ -141,7 +141,7 @@ class App extends Component {
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'faq'}>
-          <div><Faq faqs={this.state.faqs}/></div>
+          <div><FAQs faqs={this.state.faqs}/></div>
         </ScrollableAnchor>
 
         <CarouselComponent />
