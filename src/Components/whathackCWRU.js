@@ -11,9 +11,6 @@ class WhathackCWRU extends Component {
     	return (
       	<div className="App">
 					<section className="whatHackCWRU">
-						<div className="sideImage1">
-							<img className="thing" src={require('../Assets/thing.png')}></img>
-						</div>
 						<div className="whatContainerText">
 							<h2 className="whatHeader">What IS HackCWRU?</h2>
 							<p className="whatText">
