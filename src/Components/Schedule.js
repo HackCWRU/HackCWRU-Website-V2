@@ -14,8 +14,8 @@ export default class Schedule extends React.Component {
               <Event
                key={event.id}
                name={event.name}
-               startDate={event.startDateFormatted}
-               endDate={event.endDateFormatted}
+               startDate={event.startDateFormatted.substring(3)}
+               endDate={event.endDateFormatted.substring(3)}
                location={event.location}
                description={event.description} />
             )

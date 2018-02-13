@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Assets/stylesheets/schedule.css';
 
 export default class Event extends React.Component {
 
@@ -8,19 +9,19 @@ export default class Event extends React.Component {
 
   render() {
     return (
-      <div>
-        <div>
-          <div>
+      <div className='event'>
+        <div className='title'>
+          <div className='name'>
             {this.props.name}
           </div>
           <div>
-            {this.time()}
+            <span className='time'>
+              {this.time()}
+            </span>
+            {this.props.location &&
+                <i>{this.props.location}</i>}
           </div>
         </div>
-        {this.props.location &&
-          <div>
-            {this.props.location}
-          </div>}
         {this.props.description &&
           <div>
             {this.props.description}

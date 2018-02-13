@@ -16,6 +16,24 @@
   font-family: womby;
 }
 
+.schedule .event {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.schedule .event .title {
+  margin-bottom: 4px;
+}
+
+.schedule .event .title .name {
+  font-weight: 800;
+}
+
+.schedule .event .time {
+  font-weight: 800;
+  margin-right: 8px;
+}
+
 @font-face {
   font-family: "womby";
   src: url("../Womby-Regular.ttf");
