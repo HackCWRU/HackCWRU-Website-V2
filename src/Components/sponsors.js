@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Row, Col, Panel } from 'react-bootstrap';
 import '../Assets/sponsors.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import {goToAnchor} from 'react-scrollable-anchor';
 
 class Sponsors extends Component {
 
@@ -13,7 +15,9 @@ class Sponsors extends Component {
 				<div className="App">
 					<section className="sSection">
 						<div className="SHeader">
-							<h2 className="sHeader">A Special Thanks To...</h2>
+							<ScrollableAnchor id={'sponsors'}>
+								<h2 className="sHeader">A Special Thanks To...</h2>
+							</ScrollableAnchor>
 						</div>
 						<div className="sBody">
 							<div className="t12">

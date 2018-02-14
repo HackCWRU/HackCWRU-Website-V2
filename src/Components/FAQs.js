@@ -1,5 +1,7 @@
 import React from 'react';
 import FAQ from './FAQ';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import {goToAnchor} from 'react-scrollable-anchor';
 import '../Assets/stylesheets/faqs.css';
 
 
@@ -13,7 +15,9 @@ class FAQs extends React.Component {
     	return (
       	<div className="faqs">
         	<div className="container">
-						<div className="header">FAQs</div>
+						<ScrollableAnchor id={'faq'}>
+							<div className="header">FAQs</div>
+						</ScrollableAnchor>
 						<div>
 							{(this.props.faqs || []).map((faq, index) => {
 								return (

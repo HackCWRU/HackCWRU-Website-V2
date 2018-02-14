@@ -3,6 +3,8 @@ import Button from './Button.js'
 import '../Assets/Intro_Section.css';
 import Hackry from 'hackry';
 
+import ScrollableAnchor from 'react-scrollable-anchor';
+import {goToAnchor} from 'react-scrollable-anchor';
 
 import Logo from './Logo.js'
 

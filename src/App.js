@@ -11,7 +11,7 @@ import Sponsors from './Components/sponsors';
 import Schedule from './Components/Schedule';
 
 import ScrollableAnchor from 'react-scrollable-anchor';
-import {goToAnchor} from 'react-scrollable-anchor';
+import {goToAnchor, configureAnchors, goToTop} from 'react-scrollable-anchor';
 import { Button, Row, Col, Panel, Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './Assets/menuBar.css';
@@ -19,7 +19,7 @@ import './Assets/menuBar.css';
 class App extends Component {
   constructor(props) {
     super(props);
-
+    configureAnchors({offset:-60});
     this.hackry = new Hackry('NQZBtoIMDJ');
 
     this.state = {
@@ -31,6 +31,7 @@ class App extends Component {
     this.goToTrack = this.goToTrack.bind(this);
     this.goToFAQ = this.goToFAQ.bind(this);
     this.goToSponsor = this.goToSponsor.bind(this);
+    this.goToTop2 = this.goToTop2.bind(this);
   }
 
   goToAbout() {
@@ -51,6 +52,10 @@ class App extends Component {
 
   goToSponsor() {
     goToAnchor('sponsors');
+  }
+
+  goToTop2() {
+    goToTop();
   }
 
   componentWillMount() {
@@ -95,7 +100,7 @@ class App extends Component {
         <Navbar className="menuBar" collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#home"><span className="menuBarText">hackCWRU</span></a>
+              <a href="#home" onClick={this.goToTop2}><span className="menuBarText">hackCWRU</span></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -126,29 +131,19 @@ class App extends Component {
 
 
         <Intro_Section />
-
-        <ScrollableAnchor id={'about'}>
-          <div><About /></div>
-        </ScrollableAnchor>
+        <About />
 
         {this.state.events.length > 0 &&
-          <ScrollableAnchor id={'schedule'}>
-            <div><Schedule events={this.state.events} /></div>
-          </ScrollableAnchor>}
+          <Schedule events={this.state.events} />
+        }
 
         <ScrollableAnchor id={'track'}>
           <div><Tracks /></div>
         </ScrollableAnchor>
 
-        <ScrollableAnchor id={'faq'}>
-          <div><FAQs faqs={this.state.faqs}/></div>
-        </ScrollableAnchor>
-
+        <FAQs faqs={this.state.faqs}/>
         <CarouselComponent />
-
-        <ScrollableAnchor id={'sponsors'}>
-          <div><Sponsors /></div>
-        </ScrollableAnchor>
+        <Sponsors />
 
 
       </div>

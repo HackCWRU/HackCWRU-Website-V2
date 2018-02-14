@@ -1,5 +1,9 @@
 import Event from './Event';
 import React from 'react';
+
+import ScrollableAnchor from 'react-scrollable-anchor';
+import {goToAnchor} from 'react-scrollable-anchor';
+
 import '../Assets/stylesheets/schedule.css';
 
 export default class Schedule extends React.Component {
@@ -44,7 +48,9 @@ export default class Schedule extends React.Component {
     return (
       <div className='schedule'>
         <div className='container'>
-          <div className='header'>Schedule</div>
+          <ScrollableAnchor id={'schedule'}>
+            <div className='header'>Schedule</div>
+          </ScrollableAnchor>
           {days.map(dayOfWeek => {
             return (
               <div key={dayOfWeek}>
