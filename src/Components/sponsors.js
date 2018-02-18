@@ -30,9 +30,9 @@ class Sponsors extends Component {
 							<div className="t2">
 								<a href="https://www.tek.com/" target="_blank"><img className="coLo Tektronix" src={require('../Assets/companyLogo/Keithley.svg')}></img></a>
 								<a href="https://www.embeddedplanet.com/" target="_blank"><img className="coLo EP" src={require('../Assets/companyLogo/embeddedPlanet.svg')}></img></a>
-									{/*
-										<h2>JP Morgan and Chase</h2>
-									*/}
+							</div>
+							<div className="t2 t21">
+								<a href="https://www.jpmorganchase.com/" target="_blank"><img className="coLo JP" src={require('../Assets/companyLogo/jp.svg')}></img></a>
 							</div>
 							<div className="t3">
 								<a href="https://www.etsy.com/" target="_blank"><img className="coLo ETSY" src={require('../Assets/companyLogo/etsy.svg')}></img></a>
