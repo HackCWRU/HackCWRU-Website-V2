@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import hat from '../assets/hat.png';
+import hat from '../Assets/hat.png';
 
 class MenuBar extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import MenuBar from './components/MenuBar.js';
-import Content from './components/Content.js';
-import Sea from './components/Sea.js';
+import MenuBar from './Components/MenuBar.js';
+import Content from './Components/Content.js';
+import Sea from './Components/Sea.js';
 import './App.css';
 
 class App extends Component {

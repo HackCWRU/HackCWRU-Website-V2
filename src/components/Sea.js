@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import sea from '../assets/sea.svg';
+import sea from '../Assets/sea.svg';
 
 class Sea extends Component {
   render() {
