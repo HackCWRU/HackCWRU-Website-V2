@@ -11,9 +11,9 @@ class Content extends Component {
           <h4>February 15-17th 2019</h4>
           <h4>Registration Opening Soon</h4>
           <div className="buttonGroup">
-            <a target="_blank" href="https://localhackday.mlh.io/lhd-2018/events/29-hackcwru-case-western-reserve-university" className="Button lhd">
+            <a target="_blank" href="#" className="Button lhd">
               <button>
-                <p className="buttonTextLHD"> Local Hack Day </p>
+                <p className="buttonTextLHD"> Opening Soon! </p>
               </button>
             </a>
           </div>
