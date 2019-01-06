@@ -4,7 +4,7 @@ import middle_sea from '../assets/new_assets/section_1/mid_sea.svg';
 import bottom_sea from '../assets/new_assets/section_1/bot_sea.svg';
 
 
-class Sea extends Component {
+class Sea_sec1 extends Component {
   render() {
     return (
       <div className="sea">
@@ -16,4 +16,4 @@ class Sea extends Component {
   }
 }
 
-export default Sea;
+export default Sea_sec1;

@@ -129,9 +129,22 @@ These are the sea related css files
   width: 110%;
   min-width: 1000px;
   left: -10%;
-
 }
+
+.sea_sec_2 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
 .top_sea_sec_1 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_2 {
   position: absolute;
   z-index: 2;
   animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
@@ -144,11 +157,25 @@ These are the sea related css files
   margin-top:10px;
 }
 
+.mid_sea_sec_2 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
 .bot_sea_sec_1 {
   position: absolute;
   animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
   z-index: 5;
   margin-top: 40px;
+}
+
+.bot_sea_sec_2 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
 }
 
 @keyframes wave-move-lr {
@@ -197,12 +224,37 @@ Section 2
 }
 
 .eachSection {
-  padding-left: 150px;
-  padding-right:150px;
+  padding-left: 200px;
+  padding-right:200px;
   padding-top:  75px;
-  padding-bottom: 75px;
+  padding-bottom: 150px;
 }
 
+.eachSection p {
+  font-size:20px;
+}
+
+.clownFish {
+  position: absolute;
+  top:35px;
+  right:125px;
+  height: 105px;
+}
+
+.mantaRay {
+  position: absolute;
+  top:325px;
+  left:30px;
+  height: 250px;
+}
+
+.mantaRay img {
+  height:100%;
+}
+
+.clownFish img {
+  height: 100%;
+}
 
 .title {
   font-family: Hiragino;
@@ -216,4 +268,18 @@ Section 2
     padding-right:25px;
     text-align: center;
   }
+  .clownFish {
+    display: none;
+  }
+}
+
+/**
+Section 3
+**/
+
+.section3 {
+  position: relative;
+  width: 100%;
+  background-color: #4367B1;
+  z-index: 1000;
 }

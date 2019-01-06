@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import Logo from './components/Logo.js';
 import Content from './components/Content.js';
-import Sea from './components/Sea.js';
+import Sea_sec1 from './components/Sea_sec1.js';
+import Sea_sec2 from './components/Sea_sec2.js';
 import Information from './components/Information.js';
+import clownFish from './assets/new_assets/section_2/clown_fish.svg';
+import mantaRay from './assets/new_assets/section_2/manta_ray.svg';
 import './App.css';
 
 class App extends Component {
@@ -12,11 +15,22 @@ class App extends Component {
         <section className="introduction">
           <Content />
           <Logo />
-          <Sea />
+          <Sea_sec1 />
         </section>
 
         <section className="section2">
-          <Information title="About Us" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+          <Information title="What is hackCWRU?" text={["hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at hackCWRU we abide by and enforce MLH’s Code of Conduct"]}/>
+          <div className="clownFish">
+            <img src={clownFish}></img>
+          </div>
+          <div className="mantaRay">
+            <img src={mantaRay}></img>
+          </div>
+          <Sea_sec2 />
+        </section>
+
+        <section className="section3">
+          <Information title="FAQ" text="" />
         </section>
       </div>
     );
