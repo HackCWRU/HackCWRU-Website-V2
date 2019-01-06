@@ -138,6 +138,20 @@ These are the sea related css files
   left: -10%;
 }
 
+.sea_sec_3 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_4 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
 .top_sea_sec_1 {
   position: absolute;
   z-index: 2;
@@ -145,6 +159,18 @@ These are the sea related css files
 }
 
 .top_sea_sec_2 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_3 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_4 {
   position: absolute;
   z-index: 2;
   animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
@@ -164,6 +190,13 @@ These are the sea related css files
   margin-top:10px;
 }
 
+.mid_sea_sec_4 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
 .bot_sea_sec_1 {
   position: absolute;
   animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
@@ -172,6 +205,20 @@ These are the sea related css files
 }
 
 .bot_sea_sec_2 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_3 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_4 {
   position: absolute;
   animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
   z-index: 5;
@@ -271,15 +318,287 @@ Section 2
   .clownFish {
     display: none;
   }
+  .mantaRay {
+    display: none;
+  }
 }
 
 /**
 Section 3
 **/
 
+.purpleFish {
+  position: absolute;
+  top:530px;
+  left:40px;
+  height: 100px;
+  z-index: -5;
+}
+
+.purpleFish img {
+  height:100%;
+}
+
+.greenFish {
+  position: absolute;
+  top:330px;
+  left:125px;
+  height: 150px;
+  z-index: -5;
+}
+
+.greenFish img {
+  height:100%;
+}
+
+.backgroundFish {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 105px;
+  z-index: -5;
+}
+
+.backgroundFish img {
+  height:100%;
+}
+
+.bubbles {
+  position: absolute;
+  top:350px;
+  right:6%;
+  height: 145px;
+  z-index: -5;
+}
+
+.bubbles img {
+  height:100%;
+}
+
 .section3 {
   position: relative;
   width: 100%;
   background-color: #4367B1;
   z-index: 1000;
+}
+
+.FAQBubble {
+  background: #E0E8E9;
+  border: solid 1px #297284;
+  border-radius: 7px 7px 7px 7px;
+  text-align: left;
+  padding: 10px;
+  cursor: hand;
+  width: 250px;
+  font-size: large;
+  margin-top:25px;
+}
+
+.FAQBubble h3 {
+  color: #B26483;
+}
+
+.bubbleContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.bubbleContainer .FAQBubble {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .FAQBubble {
+    width: 75%;
+  }
+
+  .greenFish {
+    display: none;
+  }
+
+  .purpleFish {
+    display: none;
+  }
+
+}
+
+/**
+Section 4
+**/
+
+.section4 {
+  position: relative;
+  width: 100%;
+  background-color: #3855A4;
+  z-index: 1000;
+}
+
+.waveFish {
+  position: absolute;
+  top:-120px;
+  left:17%;
+  height: 105px;
+  z-index: 3;
+}
+
+.waveFish img {
+  height:100%;
+}
+
+.darkTitle {
+  font-family: Hiragino;
+  color:#E0E8E9;
+  font-size: 30px;
+  text-align: center;
+}
+
+.scheduleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 50%;
+}
+
+.dayContainer h4 {
+  text-align: center;
+  color:#E0E8E9;
+  font-size: 30px;
+  border-bottom: 3px solid #E0E8E9;
+  margin: 12px;
+}
+
+.dayContainer h5 {
+  text-align: left;
+  color:#E0E8E9;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right:15px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.dayContainer .dayText {
+  float: right;
+  padding-right: 5px;
+}
+
+.rightDay {
+  border-left: 2.5px solid #E0E8E9;
+}
+
+.leftDay {
+  border-right: 2.5px solid #E0E8E9;
+}
+
+.backFish2 {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish2 img {
+  height:100%;
+}
+
+.backFish3 {
+  position: absolute;
+  top:350px;
+  left:100px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish3 img {
+  height:100%;
+}
+
+.octopi {
+  position: absolute;
+  top:400px;
+  right:50px;
+  height: 225px;
+  z-index: -5;
+}
+
+.octopi img {
+  height: 100%;
+}
+
+.fishies {
+  position: absolute;
+  top:50px;
+  left:175px;
+  height: 75px;
+  z-index: -5;
+}
+
+.fishies img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .octopi {
+    display: none;
+  }
+
+  .fishies {
+    display: none;
+  }
+
+  .waveFish {
+    display: none;
+  }
+
+  .rightDay {
+    border-left: 0px solid #E0E8E9;
+  }
+  
+  .leftDay {
+    border-right: 0px solid #E0E8E9;
+  }
+  .scheduleContainer {
+    flex-direction: column;
+  }
+  .dayContainer {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+/**
+Sponsorship Area
+**/
+
+.section5 {
+  position: relative;
+  width: 100%;
+  background-color: #2D267E;
+  z-index: 1000;
+}
+
+.bottomBed {
+  position: relative;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  z-index: -5;
+}
+
+.bottomBed img {
+  width: 100%;
 }
