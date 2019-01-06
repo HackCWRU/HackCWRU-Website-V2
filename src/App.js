@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Logo from './components/Logo.js';
 import Content from './components/Content.js';
+import FAQBar from './components/FAQBar.js';
 import Sea_sec1 from './components/Sea_sec1.js';
 import Sea_sec2 from './components/Sea_sec2.js';
 import Information from './components/Information.js';
-import clownFish from './assets/new_assets/section_2/clown_fish.svg';
-import mantaRay from './assets/new_assets/section_2/manta_ray.svg';
+import clownFish from './Assets/new_assets/section_2/clown_fish.svg';
+import mantaRay from './Assets/new_assets/section_2/manta_ray.svg';
 import './App.css';
 
 class App extends Component {
@@ -31,6 +32,9 @@ class App extends Component {
 
         <section className="section3">
           <Information title="FAQ" text="" />
+          <div className="FAQContent">
+            <FAQBar question="" answer=""/>
+          </div>
         </section>
       </div>
     );

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cutie from '../assets/cutie.png';
+import cutie from '../Assets/cutie.png';
 
 class Content extends Component {
   render() {

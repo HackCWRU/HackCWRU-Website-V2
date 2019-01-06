@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import top_sea from '../assets/new_assets/section_1/top_sea.svg';
-import middle_sea from '../assets/new_assets/section_1/mid_sea.svg';
-import bottom_sea from '../assets/new_assets/section_1/bot_sea.svg';
+import top_sea from '../Assets/new_assets/section_1/top_sea.svg';
+import middle_sea from '../Assets/new_assets/section_1/mid_sea.svg';
+import bottom_sea from '../Assets/new_assets/section_1/bot_sea.svg';
 
 
 class Sea_sec1 extends Component {
