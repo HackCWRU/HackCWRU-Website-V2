@@ -52,7 +52,7 @@ class App extends Component {
 
         <section className="section3">
           <div className="eachSection">
-            <h3 className="title">FAQ</h3>
+            <h3 className="darkTitle">FAQ</h3>
             <div className="bubbleContainer">
               <FAQBar question="What is a hackCWRU?" answer="hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation."/>
               <FAQBar question="What is a hackCWRU?" answer="hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation."/>

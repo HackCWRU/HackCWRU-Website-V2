@@ -5,7 +5,7 @@ class Information extends Component {
     return (
     <div className="container">
         <div className="eachSection">
-            <h3 className="title">{this.props.title}</h3>
+            <h3 className="darkTitle">{this.props.title}</h3>
             <p>{this.props.text}</p>
         </div>
     </div>
