@@ -1,210 +1,65 @@
 @font-face {
   font-family: Hiragino;
-  src: url("./assets/Hiragino.otf") format("opentype");
+  src: url("./Assets/Hiragino.otf") format("opentype");
 }
 
 .introduction {
-  background-color: #FFEFD8;
-  display: grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-  grid-template-rows: 2% 15% auto 100px;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 600px) {
-  .introduction {
-    grid-template-columns: 10px 20px auto 20px 10px;
-    grid-template-rows: 2% 15% auto 50px;
-  }
-}
-
-/** 
- % 
- % These are the menu bar css
- % 
-**/
-
-.menuBar {
-  display: grid;
-  width:100%;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  align-items: center;
-  grid-template-columns: 40% 150px auto;
-}
-
-.brand {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 350px 5px 60px;
-  grid-template-rows: 60px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.brand h3 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  font-family: Hiragino;
-  color:#B26483;
-  font-size:20px;
-  text-align: center;
+  overflow: hidden;
+  background-color: #ffefd8;
 }
 
 /**
-.brand h3 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  font-family: Hiragino;
-  color:#B26483;
-  font-size:20px;
-}**/
 
-.menuItems {
-  display: grid;
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
+This is for mah boi our cutie sponsor
 
-.item1 {
-  justify-self: end;
-  color:#B26483;
-}
-
-@media (max-width: 600px) {
-  .menuBar {
-    grid-template-columns: auto;
-  }
-
-  .menuItems {
-    display: none !important;
-  }
-
-  .brand {
-    grid-template-columns: auto;
-  }
-}
-
-/**
-*  
-*  This is the main content introduction
-*
 **/
-
-.mainContent {
-  display: grid;
-  width:100%;
-  grid-row-start:3;
-  grid-row-end:4;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-template-columns: 60% 50px auto;
-}
-
-.theText {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  align-self: center;
-  margin-top: -50px;
-  text-align: center;
-}
 
 .myLogo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  place-self: center;
+  position: relative;  
+  float: right;
+  width: 450px;
+  top:-370px;
 }
 
-.myLogo img {
-  max-width: 120%;
-  height: auto;
-  margin-top:-75px;
-  margin-left:-25px;
+.imageLogo img {
+  position: absolute;
+  right:0px;
+  width:100%;
+  z-index: 4;
+}
+
+/**
+These are the content related css files
+**/
+
+.theText {
+  position: relative;
+  padding-left:150px;
+  top: 10%;
+  color: #B26483;
 }
 
 .theText h1 {
   font-family: Hiragino;
   color: #B26483;
   font-size: 80px;
-  margin-block-start: 5px !important;
-  margin-block-end: 5px !important;
 }
 
 .theText h3 {
   font-family: Hiragino;
   color:#B26483;
   font-size: 30px;
-  margin-block-start: 0px !important;
-  margin-block-end: 0px !important;
 }
 
 .theText h4 {
   font-family: Hiragino;
   color:#B26483;
   font-size:20px;
-  margin-block-start: 0px !important;
-  margin-block-end: 0px !important;
 }
-
-@media (max-width: 600px) {
-  .mainContent {
-    grid-template-columns: 100%;
-  }
-
-  .theText {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column: auto;
-    margin-top: 12px;
-  }
-
-  .theText h1 {
-    font-size: 40px;
-  }
-
-  .theText h3, .theText h4 {
-    font-size: 16px;
-  }
-
-  .myLogo {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column: auto;
-  }
-
-  .myLogo img {
-    margin: 0;
-    max-height: 35vh;
-    width: auto;
-  }
-}
-
-/**
-*  
-*  This is the sea stuff
-*
-**/
-
-.sea {
-  display: grid;
-  width:100%;
-  grid-row-start:4;
-  grid-row-end:5;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  justify-items: stretch;
-  align-items: end;
-}
-
-.sea img {
-  width: 100%;
+.mainContent {
+  height: 480px;
+  position: relative;
+  font-family: Hiragino;
 }
 
 button {
@@ -230,7 +85,6 @@ button {
   font-size: 20px;
   color: #B26483;
 }
-
 .lhd {
   background-color: #FFEFD8;
 }
@@ -257,4 +111,494 @@ button {
 
 .buttonGroup {
   padding-top: 25px;
+}
+
+
+/** 
+These are the sea related css files
+**/
+.sea {
+  position: relative;
+  width: 100%;
+  padding-bottom:150px;
+  overflow: hidden;
+}
+
+.sea_sec_1 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_2 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_3 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_4 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.top_sea_sec_1 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_2 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_3 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_4 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.mid_sea_sec_1 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.mid_sea_sec_2 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.mid_sea_sec_4 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.bot_sea_sec_1 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 40px;
+}
+
+.bot_sea_sec_2 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_3 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_4 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+@keyframes wave-move-lr {
+  0% {
+    left: -10%;
+  }
+  50% {
+    left: -8%;
+  }
+  100% {
+    left:-10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .theText {
+    z-index: 1000;
+    top:15%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .myLogo {
+    width: 250px;
+    top:-185px;
+  }
+  .theText h1 {
+    font-size: 40px;
+  }
+
+  .theText h3, .theText h4 {
+    font-size: 16px;
+  }
+}
+
+/**
+Section 2
+**/
+
+.section2 {
+  position: relative;
+  width: 100%;
+  background-color: #6C9DD6;
+  z-index: 1000;
+  margin-top:-50px;
+}
+
+.eachSection {
+  padding-left: 200px;
+  padding-right:200px;
+  padding-top:  75px;
+  padding-bottom: 150px;
+}
+
+.eachSection p {
+  font-size:20px;
+}
+
+.clownFish {
+  position: absolute;
+  top:35px;
+  right:125px;
+  height: 105px;
+}
+
+.mantaRay {
+  position: absolute;
+  top:325px;
+  left:30px;
+  height: 250px;
+}
+
+.mantaRay img {
+  height:100%;
+}
+
+.clownFish img {
+  height: 100%;
+}
+
+.title {
+  font-family: Hiragino;
+  color:#000000;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .eachSection {
+    padding-left: 25px;
+    padding-right:25px;
+    text-align: center;
+  }
+  .clownFish {
+    display: none;
+  }
+  .mantaRay {
+    display: none;
+  }
+}
+
+/**
+Section 3
+**/
+
+.purpleFish {
+  position: absolute;
+  top:530px;
+  left:40px;
+  height: 100px;
+  z-index: -5;
+}
+
+.purpleFish img {
+  height:100%;
+}
+
+.greenFish {
+  position: absolute;
+  top:330px;
+  left:125px;
+  height: 150px;
+  z-index: -5;
+}
+
+.greenFish img {
+  height:100%;
+}
+
+.backgroundFish {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 105px;
+  z-index: -5;
+}
+
+.backgroundFish img {
+  height:100%;
+}
+
+.bubbles {
+  position: absolute;
+  top:350px;
+  right:6%;
+  height: 145px;
+  z-index: -5;
+}
+
+.bubbles img {
+  height:100%;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  background-color: #4367B1;
+  z-index: 1000;
+}
+
+.FAQBubble {
+  background: #E0E8E9;
+  border: solid 1px #297284;
+  border-radius: 7px 7px 7px 7px;
+  text-align: left;
+  padding: 10px;
+  cursor: hand;
+  width: 250px;
+  font-size: large;
+  margin-top:25px;
+}
+
+.FAQBubble h3 {
+  color: #B26483;
+}
+
+.bubbleContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.bubbleContainer .FAQBubble {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .FAQBubble {
+    width: 75%;
+  }
+
+  .greenFish {
+    display: none;
+  }
+
+  .purpleFish {
+    display: none;
+  }
+
+}
+
+/**
+Section 4
+**/
+
+.section4 {
+  position: relative;
+  width: 100%;
+  background-color: #3855A4;
+  z-index: 1000;
+}
+
+.waveFish {
+  position: absolute;
+  top:-120px;
+  left:17%;
+  height: 105px;
+  z-index: 3;
+}
+
+.waveFish img {
+  height:100%;
+}
+
+.darkTitle {
+  font-family: Hiragino;
+  color:#E0E8E9;
+  font-size: 30px;
+  text-align: center;
+}
+
+.scheduleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 50%;
+}
+
+.dayContainer h4 {
+  text-align: center;
+  color:#E0E8E9;
+  font-size: 30px;
+  border-bottom: 3px solid #E0E8E9;
+  margin: 12px;
+}
+
+.dayContainer h5 {
+  text-align: left;
+  color:#E0E8E9;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right:15px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.dayContainer .dayText {
+  float: right;
+  padding-right: 5px;
+}
+
+.rightDay {
+  border-left: 2.5px solid #E0E8E9;
+}
+
+.leftDay {
+  border-right: 2.5px solid #E0E8E9;
+}
+
+.backFish2 {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish2 img {
+  height:100%;
+}
+
+.backFish3 {
+  position: absolute;
+  top:350px;
+  left:100px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish3 img {
+  height:100%;
+}
+
+.octopi {
+  position: absolute;
+  top:400px;
+  right:50px;
+  height: 225px;
+  z-index: -5;
+}
+
+.octopi img {
+  height: 100%;
+}
+
+.fishies {
+  position: absolute;
+  top:50px;
+  left:175px;
+  height: 75px;
+  z-index: -5;
+}
+
+.fishies img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .octopi {
+    display: none;
+  }
+
+  .fishies {
+    display: none;
+  }
+
+  .waveFish {
+    display: none;
+  }
+
+  .rightDay {
+    border-left: 0px solid #E0E8E9;
+  }
+  
+  .leftDay {
+    border-right: 0px solid #E0E8E9;
+  }
+  .scheduleContainer {
+    flex-direction: column;
+  }
+  .dayContainer {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+/**
+Sponsorship Area
+**/
+
+.section5 {
+  position: relative;
+  width: 100%;
+  background-color: #2D267E;
+  z-index: 1000;
+}
+
+.bottomBed {
+  position: relative;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  z-index: -5;
+}
+
+.bottomBed img {
+  width: 100%;
 }
