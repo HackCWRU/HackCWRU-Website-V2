@@ -6,6 +6,8 @@ import FAQBar from './components/FAQBar.js';
 import Information from './components/Information.js';
 import Schedule from './components/Schedule.js';
 
+import Hackry from 'hackry';
+
 import Sea_sec1 from './components/Sea_sec1.js';
 import Sea_sec2 from './components/Sea_sec2.js';
 import Sea_sec3 from './components/Sea_sec3.js';
@@ -30,6 +32,33 @@ import bottomBed from './Assets/new_assets/section_5/final.svg';
 import './App.css';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { 
+      events: [],
+      faqs: []
+    };
+  }
+
+  componentWillMount() {
+    this.hackry.faqs((faqs) => {
+      this.setState({
+        faqs: faqs
+      });
+    });
+
+    this.hackry.events({
+      timeZone: 'America/New_York',
+      startDateFormat: 'DD h:mm a',
+      endDateFormat: 'DD h:mm a'
+    }, (events) => {
+      this.setState({
+        events: events
+      });
+    });
+  }
+
   render() {
     return (
       <div className="App">
