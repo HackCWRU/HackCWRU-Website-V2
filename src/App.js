@@ -35,9 +35,11 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { 
-      events: [],
-      faqs: []
+    this.hackry = new Hackry('987tC2O5oK');
+
+    this.state = {
+        faqs: [],
+        events: []
     };
   }
 
@@ -50,16 +52,18 @@ class App extends Component {
 
     this.hackry.events({
       timeZone: 'America/New_York',
-      startDateFormat: 'DD h:mm a',
-      endDateFormat: 'DD h:mm a'
+      startDateFormat: 'DD h',
+      endDateFormat: 'DD h'
     }, (events) => {
       this.setState({
         events: events
       });
     });
+    
   }
 
   render() {
+    console.log(this.state.events);
     return (
       <div className="App">
         <section className="introduction">
@@ -111,7 +115,7 @@ class App extends Component {
             <img src={waveFish}></img>
           </div>
           <div className="eachSection">
-            <Schedule />
+            <Schedule events={this.state.events}/>
           </div>
 
 

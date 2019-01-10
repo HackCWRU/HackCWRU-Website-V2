@@ -495,11 +495,11 @@ Section 4
 .rightDay {
   border-left: 2.5px solid #E0E8E9;
 }
-
+/*
 .leftDay {
   border-right: 2.5px solid #E0E8E9;
 }
-
+*/
 .backFish2 {
   position: absolute;
   top:70px;
