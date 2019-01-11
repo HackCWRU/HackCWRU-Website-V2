@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Schedule_Item from './Schedule_Item';
+import '../Assets/css/schedule.css';
 
 class Schedule extends Component {
 
@@ -44,7 +45,7 @@ class Schedule extends Component {
       <div className="container">
         <h3 className="darkTitle">Schedule</h3>
         <div className="scheduleContainer">
-            <div className="dayContainer leftDay">
+            <div className="dayContainer">
                 <h4>Friday</h4>
                 {
                   this.state.fridayEvents.map(function(item, i) {
@@ -57,20 +58,20 @@ class Schedule extends Component {
                       if(min == 0) {
                         timeString = hour.toString() + "PM ";
                       } else {
-                        timeString = hour.toString() + "PM " + min.toString() +"min";
+                        timeString = hour.toString() +":"+ min.toString() +"PM";
                       }
                     } else {
                       if(min == 0) {
                         timeString = hour.toString() + "AM ";
                       } else {
-                        timeString = hour.toString() + "AM " + min.toString() +"min";
+                        timeString = hour.toString() +":"+ min.toString() +"AM";
                       }
                     }
                     return <Schedule_Item time={timeString} text={item.name} />
                   })
                 }
             </div>
-            <div className="dayContainer rightDay">
+            <div className="dayContainer eachDay">
                 <h4>Saturday</h4>
                 {
                   this.state.saturdayEvents.map(function(item, i) {
@@ -83,20 +84,20 @@ class Schedule extends Component {
                       if(min == 0) {
                         timeString = hour.toString() + "PM ";
                       } else {
-                        timeString = hour.toString() + "PM " + min.toString() +"min";
+                        timeString = hour.toString() + ":" + min.toString() +"PM";
                       }
                     } else {
                       if(min == 0) {
                         timeString = hour.toString() + "AM ";
                       } else {
-                        timeString = hour.toString() + "AM " + min.toString() +"min";
+                        timeString = hour.toString() + ":" + min.toString() +"AM";
                       }
                     }
                     return <Schedule_Item time={timeString} text={item.name} />
                   })
                 }
             </div>
-            <div className="dayContainer rightDay">
+            <div className="dayContainer eachDay">
                 <h4>Sunday</h4>
                 {
                   this.state.sundayEvents.map(function(item, i) {
@@ -109,13 +110,13 @@ class Schedule extends Component {
                       if(min == 0) {
                         timeString = hour.toString() + "PM ";
                       } else {
-                        timeString = hour.toString() + "PM " + min.toString() +"min";
+                        timeString = hour.toString() + ":" + min.toString() +"PM";
                       }
                     } else {
                       if(min == 0) {
                         timeString = hour.toString() + "AM ";
                       } else {
-                        timeString = hour.toString() + "AM " + min.toString() +"min";
+                        timeString = hour.toString() + ":" + min.toString() +"AM";
                       }
                     }
                     return <Schedule_Item time={timeString} text={item.name} />

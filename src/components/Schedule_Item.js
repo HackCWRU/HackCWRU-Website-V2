@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import '../Assets/css/schedule.css';
+
 
 class Schedule_Item extends Component {
   render() {
     return (
-      <div className="container">
-        <h5>{this.props.time} <span className="dayText"> {this.props.text} </span></h5>
+      <div className="sItem">
+        <h5 className="timeText">{this.props.time}</h5>
+        <h5 className="dayText">{this.props.text}</h5>
       </div>
     );
   }
