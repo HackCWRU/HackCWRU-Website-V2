@@ -73,7 +73,7 @@ class App extends Component {
         </section>
 
         <section className="section2">
-          <Information title="What is hackCWRU?" text={["hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at hackCWRU we abide by and enforce MLH’s Code of Conduct"]}/>
+          <Information title="What is hackCWRU?" text={["hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at hackCWRU we abide by and enforce MLH’s ", <a href="https://mlh.io/code-of-conduct">Code of Conduct</a>, "."]}/>
           <div className="clownFish">
             <img src={clownFish}></img>
           </div>

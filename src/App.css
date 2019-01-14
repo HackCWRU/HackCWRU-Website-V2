@@ -270,6 +270,12 @@ Section 2
   margin-top:-50px;
 }
 
+.section2 a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: #000 1px dashed;
+}
+
 .eachSection {
   padding-left: 200px;
   padding-right:200px;
