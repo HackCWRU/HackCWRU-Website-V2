@@ -410,7 +410,7 @@ Section 3
 .FAQBubble {
   background: #E0E8E9;
   border: solid 1px #297284;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 7px;
   text-align: left;
   padding: 10px;
   cursor: hand;
@@ -421,10 +421,13 @@ Section 3
 
 .FAQBubble h3 {
   color: #B26483;
+  margin: 4px 0;
 }
 
 .FAQBubble p {
   font-size: 16px;
+  margin: 0;
+  padding: 4px 0;
 }
 
 .bubbleContainer {

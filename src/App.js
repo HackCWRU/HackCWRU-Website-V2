@@ -73,7 +73,7 @@ class App extends Component {
         </section>
 
         <section className="section2">
-          <Information title="What is hackCWRU?" text={["hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at hackCWRU we abide by and enforce MLH’s ", <a href="https://mlh.io/code-of-conduct">Code of Conduct</a>, "."]}/>
+          <Information title="What is HackCWRU?" text={["HackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at HackCWRU we abide by and enforce MLH’s ", <a href="https://mlh.io/code-of-conduct">Code of Conduct</a>, "."]}/>
           <div className="clownFish">
             <img src={clownFish}></img>
           </div>
@@ -88,8 +88,8 @@ class App extends Component {
             <h3 className="darkTitle">FAQ</h3>
             <div className="bubbleContainer">
               <FAQBar 
-                question="Where will hackCWRU V take place?"
-                answer="Hackers will be working in Horsburgh Gymnasium and Think[box]. Attendees can check in at Veale Center, 2138 Adelbert Rd, Cleveland, OH 44106."
+                question="Where will HackCWRU 6 take place?"
+                answer="Hackers will be working in CWRU's Sears Think[box]. Attendees can check in at the Veale Center lobby, 2138 Adelbert Rd, Cleveland, OH 44106."
               />
               <FAQBar 
                 question="Who can attend?" 
@@ -101,7 +101,7 @@ class App extends Component {
               />
               <FAQBar 
                 question="What if I don't have an idea or team?" 
-                answer="There are plenty of other hackers with your same dilemma that you can join forces with. Thirty six hours is plenty of time for a couple hours of brainstorming."
+                answer="There are plenty of other hackers with your same dilemma that you can join forces with. Thirty six hours is plenty of time for a couple hours of brainstorming. Also, we will have team building and idea brainstorming workshops."
               />
               <FAQBar 
                 question="Will travel be reimbursed?" 
@@ -113,7 +113,7 @@ class App extends Component {
               />
               <FAQBar 
                 question="What should I bring?" 
-                answer="Besides your computer, bring anything that you'd like to hack with or that would make your  sleepover more comfortable. We suggest a sleeping bag, a toothbrush, and a change of clothes. **Also, please bring a valid state ID or driver's license.**"
+                answer="Besides your computer, bring anything that you'd like to hack with or that would make your sleepover more comfortable. We suggest a sleeping bag, a toothbrush, and a change of clothes. **Also, please bring a valid state ID or driver's license.**"
               />
               <FAQBar 
                 question="What if I don't have equipment to make my hack?" 
@@ -121,9 +121,8 @@ class App extends Component {
               />
               <FAQBar 
                 question="Is there free parking?" 
-                answer="Yes! We have Lot 44 reserved on campus which is about a 5 minute walk from the venue."
-              />
-              
+                answer="Yes! We will have a reserved parking lot you can use for free."
+              />   
             </div>
           </div>
           <div className="bubbles">
