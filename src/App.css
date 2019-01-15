@@ -578,6 +578,20 @@ Sponsorship Area
   z-index: 1000;
 }
 
+.sponsorsDiv {
+  background-color: rgba(256, 256, 256, .9);
+  padding: 4px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsorLogo {
+  margin: 8px 16px;
+}
+
 .bottomBed {
   position: relative;
   bottom:0px;
@@ -588,6 +602,16 @@ Sponsorship Area
 
 .bottomBed img {
   width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .sponsorLogo {
+    margin: 8px;
+  }
+
+  .sponsorLogo img {
+    max-width: 90%;
+  }
 }
 
 /**

@@ -5,6 +5,7 @@ import Content from './components/Content.js';
 import FAQBar from './components/FAQBar.js';
 import Information from './components/Information.js';
 import Schedule from './components/Schedule.js';
+import Sponsor from './components/Sponsor.js';
 
 import Hackry from 'hackry';
 
@@ -38,8 +39,8 @@ class App extends Component {
     this.hackry = new Hackry('987tC2O5oK');
 
     this.state = {
-        faqs: [],
-        events: []
+      faqs: [],
+      events: []
     };
   }
 
@@ -63,7 +64,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.events);
     return (
       <div className="App">
         <section className="introduction">
@@ -169,6 +169,20 @@ class App extends Component {
         <section className="section5">
           <div className="eachSection">
             <h3 className="darkTitle">Sponsorship</h3>
+            <div className="sponsorsDiv">
+              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={40} />
+              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40} />
+
+              <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={20} />
+              <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={20} />
+              <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
+              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={20} />
+
+              <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={10} />
+              <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
+              <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
+              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={15} />
+            </div>
           </div>
           <div className="bottomBed">
             <img src={bottomBed}></img>
