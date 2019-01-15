@@ -3,6 +3,10 @@
   src: url("./Assets/Nexa.otf") format("opentype");
 }
 
+* {
+  outline-width: 0;
+}
+
 .introduction {
   overflow: hidden;
   background-color: #ffefd8;
@@ -43,6 +47,10 @@ These are the content related css files
   font-family: Hiragino;
   color: #B26483;
   font-size: 80px;
+}
+
+.theText img {
+  height: 90px;
 }
 
 .theText h3 {
@@ -113,6 +121,11 @@ button {
   padding-top: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+  .theText img {
+    height: 40px;
+  }
+}
 
 /** 
 These are the sea related css files
@@ -240,7 +253,7 @@ These are the sea related css files
 @media only screen and (max-width: 600px) {
   .theText {
     z-index: 1000;
-    top:15%;
+    top:25%;
     padding-left: 0px;
     text-align: center;
   }
@@ -271,9 +284,9 @@ Section 2
 }
 
 .section2 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
-  border-bottom: #000 1px dashed;
+  border-bottom: #fff 1px dashed;
 }
 
 .eachSection {
@@ -286,6 +299,10 @@ Section 2
 
 .eachSection p {
   font-size:20px;
+}
+
+.informationText {
+  color: #fff !important;
 }
 
 @media only screen and (max-width: 1000px) {
