@@ -5,6 +5,7 @@ import Content from './components/Content.js';
 import FAQBar from './components/FAQBar.js';
 import Information from './components/Information.js';
 import Schedule from './components/Schedule.js';
+import Sponsor from './components/Sponsor.js';
 
 import Hackry from 'hackry';
 
@@ -12,6 +13,9 @@ import Sea_sec1 from './components/Sea_sec1.js';
 import Sea_sec2 from './components/Sea_sec2.js';
 import Sea_sec3 from './components/Sea_sec3.js';
 import Sea_sec4 from './components/Sea_sec4.js';
+
+import cloud1 from './Assets/new_assets/section_1/cloud1.svg';
+import cloud2 from './Assets/new_assets/section_1/cloud2.svg';
 
 import clownFish from './Assets/new_assets/section_2/clown_fish.svg';
 import mantaRay from './Assets/new_assets/section_2/manta_ray.svg';
@@ -38,8 +42,8 @@ class App extends Component {
     this.hackry = new Hackry('987tC2O5oK');
 
     this.state = {
-        faqs: [],
-        events: []
+      faqs: [],
+      events: []
     };
   }
 
@@ -63,17 +67,22 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.events);
     return (
       <div className="App">
         <section className="introduction">
           <Content />
           <Logo />
+          <div className="cloud1">
+            <img src={cloud1}></img>
+          </div>
+          <div className="cloud2">
+            <img src={cloud2}></img>
+          </div>
           <Sea_sec1 />
         </section>
 
         <section className="section2">
-          <Information title="What is hackCWRU?" text={["hackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathon, we look forward to introducing you to a world of creation. Lastly, at hackCWRU we abide by and enforce MLH’s Code of Conduct"]}/>
+          <Information title="What is HackCWRU?" text={["HackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathons, we look forward to introducing you to a world of creation. Lastly, at HackCWRU we abide by and enforce MLH’s ", <a href="https://mlh.io/code-of-conduct">Code of Conduct</a>, "."]}/>
           <div className="clownFish">
             <img src={clownFish}></img>
           </div>
@@ -88,8 +97,8 @@ class App extends Component {
             <h3 className="darkTitle">FAQ</h3>
             <div className="bubbleContainer">
               <FAQBar 
-                question="Where will hackCWRU V take place?"
-                answer="Hackers will be working in Horsburgh Gymnasium and Think[box]. Attendees can check in at Veale Center, 2138 Adelbert Rd, Cleveland, OH 44106."
+                question="Where will HackCWRU 6 take place?"
+                answer="Hackers will be working in CWRU's Sears Think[box]. Attendees can check in at the Veale Center lobby, 2138 Adelbert Rd, Cleveland, OH 44106."
               />
               <FAQBar 
                 question="Who can attend?" 
@@ -101,7 +110,7 @@ class App extends Component {
               />
               <FAQBar 
                 question="What if I don't have an idea or team?" 
-                answer="There are plenty of other hackers with your same dilemma that you can join forces with. Thirty six hours is plenty of time for a couple hours of brainstorming."
+                answer="There are plenty of other hackers with your same dilemma that you can join forces with. Thirty six hours is plenty of time for a couple hours of brainstorming. Also, we will have team building and idea brainstorming workshops."
               />
               <FAQBar 
                 question="Will travel be reimbursed?" 
@@ -113,7 +122,7 @@ class App extends Component {
               />
               <FAQBar 
                 question="What should I bring?" 
-                answer="Besides your computer, bring anything that you'd like to hack with or that would make your  sleepover more comfortable. We suggest a sleeping bag, a toothbrush, and a change of clothes. **Also, please bring a valid state ID or driver's license.**"
+                answer="Besides your computer, bring anything that you'd like to hack with or that would make your sleepover more comfortable. We suggest a sleeping bag, a toothbrush, and a change of clothes. **Also, please bring a valid state ID or driver's license.**"
               />
               <FAQBar 
                 question="What if I don't have equipment to make my hack?" 
@@ -121,9 +130,8 @@ class App extends Component {
               />
               <FAQBar 
                 question="Is there free parking?" 
-                answer="Yes! We have Lot 44 reserved on campus which is about a 5 minute walk from the venue."
-              />
-              
+                answer="Yes! We will have a reserved parking lot you can use for free."
+              />   
             </div>
           </div>
           <div className="bubbles">
@@ -169,6 +177,19 @@ class App extends Component {
         <section className="section5">
           <div className="eachSection">
             <h3 className="darkTitle">Sponsorship</h3>
+            <div className="sponsorsDiv">
+              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={39.9} />
+              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40.1} />
+              <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={20} />
+              <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={20} />
+              <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
+              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={20} />
+
+              <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={10} />
+              <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
+              <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
+              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={15} />
+            </div>
           </div>
           <div className="bottomBed">
             <img src={bottomBed}></img>
