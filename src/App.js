@@ -14,6 +14,9 @@ import Sea_sec2 from './components/Sea_sec2.js';
 import Sea_sec3 from './components/Sea_sec3.js';
 import Sea_sec4 from './components/Sea_sec4.js';
 
+import cloud1 from './Assets/new_assets/section_1/cloud1.svg';
+import cloud2 from './Assets/new_assets/section_1/cloud2.svg';
+
 import clownFish from './Assets/new_assets/section_2/clown_fish.svg';
 import mantaRay from './Assets/new_assets/section_2/manta_ray.svg';
 
@@ -69,6 +72,12 @@ class App extends Component {
         <section className="introduction">
           <Content />
           <Logo />
+          <div className="cloud1">
+            <img src={cloud1}></img>
+          </div>
+          <div className="cloud2">
+            <img src={cloud2}></img>
+          </div>
           <Sea_sec1 />
         </section>
 
@@ -169,9 +178,8 @@ class App extends Component {
           <div className="eachSection">
             <h3 className="darkTitle">Sponsorship</h3>
             <div className="sponsorsDiv">
-              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={38} />
-              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40} />
-
+              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={39.9} />
+              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40.1} />
               <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={20} />
               <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={20} />
               <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />

@@ -9,7 +9,7 @@
 
 .introduction {
   overflow: hidden;
-  background-color: #ffefd8;
+  background-color: #efd8a4;
 }
 
 /**
@@ -32,6 +32,28 @@ This is for mah boi our cutie sponsor
   z-index: 4;
 }
 
+.cloud1 {
+  position: absolute;
+  left: 10%;
+  width: 30%;
+  min-width: 120px;
+  top: 460px;
+  z-index: 1;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 20%;
+  width: 40%;
+  min-width: 300px;
+  top: 50px;
+  z-index: 1;
+}
+
+.cloud1 img, .cloud2 img {
+  width: 100%;
+}
+
 /**
 These are the content related css files
 **/
@@ -41,6 +63,7 @@ These are the content related css files
   padding-left:150px;
   top: 30%;
   color: #B26483;
+  z-index: 2;
 }
 
 .theText h1 {
@@ -610,6 +633,7 @@ Sponsorship Area
 
 .sponsorLogo {
   margin: 8px 16px;
+  width: 100%;
 }
 
 .bottomBed {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cutie from '../Assets/new_assets/section_1/beachy_boi_v3.svg';
+import cutie from '../Assets/new_assets/section_1/beachy_boi_v4.svg';
 
 class Logo extends Component {
   render() {
