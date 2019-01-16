@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "1f9b08e4f50f41940ccb",
-    "url": "/static/css/main.54c799a6.chunk.css"
+    "revision": "556dc19be996527c0104",
+    "url": "/static/css/main.7afa9702.chunk.css"
   },
   {
-    "revision": "1f9b08e4f50f41940ccb",
-    "url": "/static/js/main.1f9b08e4.chunk.js"
+    "revision": "556dc19be996527c0104",
+    "url": "/static/js/main.556dc19b.chunk.js"
   },
   {
-    "revision": "a8d350f0163827953d97",
-    "url": "/static/js/1.a8d350f0.chunk.js"
+    "revision": "4cc72b366e99f1d0ff65",
+    "url": "/static/js/1.4cc72b36.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "5837fc91a89a9bd00d3a06f2a8059653",
-    "url": "/static/media/beachy_boi_v3.5837fc91.svg"
+    "revision": "935c1373966cc6bd0897d4300083dfc8",
+    "url": "/static/media/beachy_boi_v4.935c1373.svg"
   },
   {
     "revision": "31e204f1a6d380e36f3e5e4d8eacd689",
@@ -64,6 +64,14 @@ self.__precacheManifest = [
     "url": "/static/media/bot_sea.c1821da9.svg"
   },
   {
+    "revision": "50e901e95dcf66f34e1afb45e80c7a11",
+    "url": "/static/media/cloud1.50e901e9.svg"
+  },
+  {
+    "revision": "01c4132eeae11f8a7b424014cf6e6be9",
+    "url": "/static/media/cloud2.01c4132e.svg"
+  },
+  {
     "revision": "a1eab7da72a08967902d65d573ce5b06",
     "url": "/static/media/clown_fish.a1eab7da.svg"
   },
@@ -108,15 +116,51 @@ self.__precacheManifest = [
     "url": "/static/media/octopi.6fff9e48.svg"
   },
   {
-    "revision": "4d67171246aabeb9293a70253dd3f75c",
-    "url": "/static/media/final.4d671712.svg"
+    "revision": "6ef6343ccbd1e6468aa77fd98f94c48b",
+    "url": "/static/media/final.6ef6343c.svg"
+  },
+  {
+    "revision": "627ece2766ba0ec977e1cc9e95c13540",
+    "url": "/static/media/Logo.627ece27.svg"
   },
   {
     "revision": "12108809f49c49bcdc126dcecc938761",
     "url": "/static/media/Nexa.12108809.otf"
   },
   {
-    "revision": "eafa1f24e7f04c14cfb7aece506e8040",
+    "revision": "8c50a51f419f308d4b31c0ef04d588e5",
+    "url": "/static/media/Rockwell_Automation_logo.8c50a51f.png"
+  },
+  {
+    "revision": "9b5fa15d322195b118b476fe16fa8b33",
+    "url": "/static/media/omnisci.9b5fa15d.svg"
+  },
+  {
+    "revision": "60cf7767051a361929c6bca7fcb11fad",
+    "url": "/static/media/numoLogo.60cf7767.png"
+  },
+  {
+    "revision": "5e132db1d01fcbf89a38fee3d723e77e",
+    "url": "/static/media/Etsy_logo.5e132db1.png"
+  },
+  {
+    "revision": "6b57380664879c7e6a5de6f75f4cf425",
+    "url": "/static/media/assurantlabs.6b573806.gif"
+  },
+  {
+    "revision": "a239eb865447e9b99abef1d599f1032f",
+    "url": "/static/media/jetbrainsLogo.a239eb86.png"
+  },
+  {
+    "revision": "e8f44062d0a2c5ab1d68a95ae1888524",
+    "url": "/static/media/CoverMyMeds.e8f44062.svg"
+  },
+  {
+    "revision": "4ab46d61a67a63b20a04b8d4c4c10aa7",
+    "url": "/static/media/GCPLogo.4ab46d61.png"
+  },
+  {
+    "revision": "e0026fe5fd84aebe22ff7f7e0bb83d95",
     "url": "/index.html"
   }
 ];
