@@ -180,15 +180,16 @@ class App extends Component {
             <div className="sponsorsDiv">
               <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={39.9} />
               <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40.1} />
+
               <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={20} />
               <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={20} />
-              <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
               <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={20} />
+              <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={15} />
 
-              <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={10} />
               <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
               <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
-              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={15} />
+              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={20} />
+              <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
             </div>
           </div>
           <div className="bottomBed">
