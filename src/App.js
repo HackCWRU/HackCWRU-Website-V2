@@ -31,6 +31,11 @@ import backFish3 from './Assets/new_assets/section_4/3fishBack.svg';
 import fishies from './Assets/new_assets/section_4/fishies.svg';
 import octopi from './Assets/new_assets/section_4/octopi.svg';
 
+import civic from './Assets/new_assets/section_6/Civic.svg';
+import fintech from './Assets/new_assets/section_6/FinTech.svg';
+import health from './Assets/new_assets/section_6/Health.svg';
+import maker from './Assets/new_assets/section_6/Maker.svg';
+
 import bottomBed from './Assets/new_assets/section_5/final.svg';
 
 import './App.css';
@@ -43,7 +48,24 @@ class App extends Component {
 
     this.state = {
       faqs: [],
-      events: []
+      events: [],
+      tracks: [{
+        title: 'FinTech',
+        img: fintech,
+        description: 'Projects which intersect with finance,banking or economics'
+      }, {
+        title: 'Civic',
+        img: civic,
+        description: 'Projects involving smart devices and the data they generate'
+      }, {
+        title: 'Health',
+        img: health,
+        description: 'Projects based in health IT, public health, or bioinformatics'
+      }, {
+        title: 'Maker',
+        img: maker,
+        description: 'Projects that embody the DIY maker spirit'
+      }]
     };
   }
 
@@ -174,22 +196,47 @@ class App extends Component {
           <Sea_sec4 />
         </section>
 
+        <section className="section6">
+          
+          <h3 className="darkTitle">Tracks</h3>
+
+          <div className="track-list">
+            {this.state.tracks.map(t => (
+              <div className="track-item">
+                <img src={t.img} />
+                <div className="description">
+                  <h4 className="darkTitle">{t.title}</h4>
+                  <p>{t.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="clownFish">
+            <img src={clownFish}></img>
+          </div>
+          <Sea_sec4 />
+        </section>
+
         <section className="section5">
           <div className="eachSection">
             <h3 className="darkTitle">Sponsorship</h3>
             <div className="sponsorsDiv">
-              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={39.9} />
-              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={40.1} />
+              <Sponsor href="https://www.key.com/" src={require('./Assets/sponsors/KeyBank_logo.png')} maxWidth={45} />
+              <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={40} />
 
-              <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={20} />
-              <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={20} />
+              <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={35} />
+              <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={25} />
+              <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={25} />
+
               <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={20} />
               <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={15} />
-
               <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
               <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
+
               <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={20} />
               <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
+              <Sponsor href="http://hackp.ac/mlh-stickermule-hackathons" src={require('./Assets/sponsors/sticker-mule.svg')} maxWidth={30} />
             </div>
           </div>
           <div className="bottomBed">
