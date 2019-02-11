@@ -225,11 +225,13 @@ class App extends Component {
               <Sponsor href="https://www.key.com/" src={require('./Assets/sponsors/KeyBank_logo.png')} maxWidth={45} />
               <Sponsor href="https://www.rockwellautomation.com/" src={require('./Assets/sponsors/Rockwell_Automation_logo.png')} maxWidth={40} />
 
+              <Sponsor href="https://www.jpmorganchase.com/" src={require('./Assets/sponsors/jpmc_logo.png')} maxWidth={55} />
               <Sponsor href="https://www.omnisci.com" src={require('./Assets/sponsors/omnisci.svg')} maxWidth={35} />
+
               <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={25} />
               <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={25} />
+              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={25} />
 
-              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={20} />
               <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={15} />
               <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
               <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
