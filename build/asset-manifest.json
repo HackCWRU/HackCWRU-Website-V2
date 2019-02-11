@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.dc1348c6.chunk.css",
-  "main.js": "/static/js/main.a2f48eb0.chunk.js",
-  "main.js.map": "/static/js/main.a2f48eb0.chunk.js.map",
+  "main.js": "/static/js/main.f7d2c622.chunk.js",
+  "main.js.map": "/static/js/main.f7d2c622.chunk.js.map",
   "static/js/1.86933568.chunk.js": "/static/js/1.86933568.chunk.js",
   "static/js/1.86933568.chunk.js.map": "/static/js/1.86933568.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -32,6 +32,7 @@
   "static/media/App.css": "/static/media/Nexa.12108809.otf",
   "static/media/KeyBank_logo.png": "/static/media/KeyBank_logo.f50bc178.png",
   "static/media/Rockwell_Automation_logo.png": "/static/media/Rockwell_Automation_logo.8c50a51f.png",
+  "static/media/jpmc_logo.png": "/static/media/jpmc_logo.17ccc04c.png",
   "static/media/omnisci.svg": "/static/media/omnisci.9b5fa15d.svg",
   "static/media/numoLogo.png": "/static/media/numoLogo.60cf7767.png",
   "static/media/Etsy_logo.png": "/static/media/Etsy_logo.5e132db1.png",
@@ -42,6 +43,6 @@
   "static/media/sticker-mule.svg": "/static/media/sticker-mule.67e93281.svg",
   "static/css/main.dc1348c6.chunk.css.map": "/static/css/main.dc1348c6.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.30e3f19ce54421aa719c3efa437acb3e.js": "/precache-manifest.30e3f19ce54421aa719c3efa437acb3e.js",
+  "precache-manifest.ce5c4d8bd864da2f935a44b007c63702.js": "/precache-manifest.ce5c4d8bd864da2f935a44b007c63702.js",
   "service-worker.js": "/service-worker.js"
 }
