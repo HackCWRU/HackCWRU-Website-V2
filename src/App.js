@@ -14,6 +14,8 @@ import Sea_sec2 from './components/Sea_sec2.js';
 import Sea_sec3 from './components/Sea_sec3.js';
 import Sea_sec4 from './components/Sea_sec4.js';
 
+import sunset from './Assets/sunset_sky.svg';
+
 import cloud1 from './Assets/new_assets/section_1/cloud1.svg';
 import cloud2 from './Assets/new_assets/section_1/cloud2.svg';
 
@@ -35,6 +37,9 @@ import civic from './Assets/new_assets/section_6/Civic.svg';
 import fintech from './Assets/new_assets/section_6/FinTech.svg';
 import health from './Assets/new_assets/section_6/Health.svg';
 import maker from './Assets/new_assets/section_6/Maker.svg';
+
+import speakers from './Assets/speakers.png';
+import oculus from './Assets/oculus headsets.png';
 
 import bottomBed from './Assets/new_assets/section_5/final.svg';
 
@@ -91,7 +96,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className="introduction">
+        <section className="introduction" style={{ backgroundImage: `url(${sunset})` }}>
           <Content />
           <Logo />
           <div className="cloud1">
@@ -103,19 +108,13 @@ class App extends Component {
           <Sea_sec1 />
         </section>
 
-        <section className="section2">
+        <section className="section1">
           <Information title="What is HackCWRU?" text={["HackCWRU brings together the brightest and most creative students to promote unrestricted technological innovation.",<br />,<br />,  "Hosted at Case Western Reserve University, over 350 students will spend 36 hours bringing their imagination into the real world. Attendees will work with peers and mentors to create projects in one of four project tracks. ", <br />, <br />, "Don’t be intimidated! You don’t have to know what you’re doing to attend. If you are new to hackathons, we look forward to introducing you to a world of creation. Lastly, at HackCWRU we abide by and enforce MLH’s ", <a href="https://mlh.io/code-of-conduct">Code of Conduct</a>, "."]}/>
-          <div className="clownFish">
-            <img src={clownFish}></img>
-          </div>
-          <div className="mantaRay">
-            <img src={mantaRay}></img>
-          </div>
-          <Sea_sec2 />
+          <img src={require('./Assets/new_assets/section_1/transition_to_section_2.svg')} width='100%' />
         </section>
 
-        <section className="section3">
-          <div className="eachSection">
+        <section className="section2">
+        <div className="eachSection">
             <h3 className="darkTitle">FAQ</h3>
             <div className="bubbleContainer">
               <FAQBar 
@@ -171,33 +170,23 @@ class App extends Component {
           <div className="waveFish">
             <img src={waveFish}></img>
           </div>
+          <Sea_sec2 />
+        </section>
+
+        <section className="section3">
+          <div className="eachSection">
+            <Schedule events={this.state.events}/>
+          </div>
+          <div className="clownFish">
+            <img src={clownFish}></img>
+          </div>
+          <div className="mantaRay">
+            <img src={mantaRay}></img>
+          </div>
           <Sea_sec3 />
         </section>
 
         <section className="section4">
-          
-          <div className="eachSection">
-            <Schedule events={this.state.events}/>
-          </div>
-
-
-          <div className="backFish2">
-            <img src={backFish2}></img>
-          </div>
-          <div className="backFish3">
-            <img src={backFish3}></img>
-          </div>
-          <div className="fishies">
-            <img src={fishies}></img>
-          </div>
-          <div className="octopi">
-            <img src={octopi}></img>
-          </div>
-          <Sea_sec4 />
-        </section>
-
-        <section className="section6">
-          
           <h3 className="darkTitle">Tracks</h3>
 
           <div className="track-list">
@@ -212,8 +201,28 @@ class App extends Component {
             ))}
           </div>
 
-          <div className="clownFish">
-            <img src={clownFish}></img>
+          <h3 className="darkTitle">Prizes</h3>
+          <div className="prizes-container speakers">
+            <img src={speakers} />
+            <p>Ultimate Ears MEGABOOM 3 speakers</p>
+          </div>
+          <div className="prizes-container oculus">
+            <img src={oculus} className="oculus" />
+            <p>Oculus Go VR headsets</p>
+          </div>
+
+
+          <div className="backFish2">
+            <img src={backFish2}></img>
+          </div>
+          <div className="backFish3">
+            <img src={backFish3}></img>
+          </div>
+          <div className="fishies">
+            <img src={fishies}></img>
+          </div>
+          <div className="octopi">
+            <img src={octopi}></img>
           </div>
           <Sea_sec4 />
         </section>
@@ -233,12 +242,13 @@ class App extends Component {
               <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={25} />
 
               <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={15} />
-              <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={30} />
-              <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={15} />
+              <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={20} />
+              <Sponsor href="https://www.apartmentlist.com/" src={require('./Assets/sponsors/apartment_list_logo.png')} maxWidth={35} />
 
-              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={20} />
+              <Sponsor href="https://www.covermymeds.com" src={require('./Assets/sponsors/CoverMyMeds.svg')} maxWidth={20} />
+              <Sponsor href="https://cloud.google.com/" src={require('./Assets/sponsors/GCPLogo.png')} maxWidth={15} />
               <Sponsor href="https://www.jumpstartinc.org/" src={require('./Assets/sponsors/jumpstart.png')} maxWidth={15} />
-              <Sponsor href="http://hackp.ac/mlh-stickermule-hackathons" src={require('./Assets/sponsors/sticker-mule.svg')} maxWidth={30} />
+              <Sponsor href="http://hackp.ac/mlh-stickermule-hackathons" src={require('./Assets/sponsors/sticker-mule.svg')} maxWidth={20} />
             </div>
           </div>
           <div className="bottomBed">

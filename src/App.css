@@ -10,6 +10,7 @@
 .introduction {
   overflow: hidden;
   background-color: #efd8a4;
+  background-size: cover;
 }
 
 /**
@@ -78,13 +79,13 @@ These are the content related css files
 
 .theText h3 {
   font-family: Hiragino;
-  color:#B26483;
+  color:#fff;
   font-size: 30px;
 }
 
 .theText h4 {
   font-family: Hiragino;
-  color:#B26483;
+  color:#fff;
   font-size:20px;
 }
 .mainContent {
@@ -121,8 +122,9 @@ button {
 }
 
 .lhd button {
-  border-radius: 12px;
-  border-color: #B26483;
+  border-radius: 9px !important;
+  border: none;
+  box-shadow: 10px 10px 0px 1px #3B0596;
 }
 
 .buttonTextLHD {
@@ -160,9 +162,13 @@ These are the sea related css files
   overflow: hidden;
 }
 
+.sea.sea_sec_1_container {
+  padding-bottom: 450px;
+}
+
 .sea_sec_1 {
   position: absolute;
-  width: 110%;
+  width: 120%;
   min-width: 1000px;
   left: -10%;
 }
@@ -190,7 +196,7 @@ These are the sea related css files
 
 .top_sea_sec_1 {
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
 }
 
@@ -237,7 +243,7 @@ These are the sea related css files
   position: absolute;
   animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
   z-index: 5;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .bot_sea_sec_2 {
@@ -298,6 +304,19 @@ These are the sea related css files
 Section 2
 **/
 
+.section1 {
+  position: relative;
+  width: 100%;
+  background-color: #98D5FE;
+  z-index: 1000;
+  margin-top:-300px;
+}
+
+.section1 .eachSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .section2 {
   position: relative;
   width: 100%;
@@ -306,10 +325,10 @@ Section 2
   margin-top:-50px;
 }
 
-.section2 a {
-  color: #fff;
+.section1 a {
+  color: rgb(46, 69, 110);
   text-decoration: none;
-  border-bottom: #fff 1px dashed;
+  border-bottom: rgb(46, 69, 110) 1px dashed;
 }
 
 .eachSection {
@@ -325,7 +344,7 @@ Section 2
 }
 
 .informationText {
-  color: #fff !important;
+  color: rgb(46, 69, 110) !important;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -507,6 +526,10 @@ Section 4
   width: 100%;
   background-color: #3855A4;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .darkTitle {
@@ -613,20 +636,10 @@ Section 4
 Track Area
 **/
 
-.section6 {
-  position: relative;
-  width: 100%;
-  background-image: linear-gradient(rgb(43, 41, 121), rgb(64, 52, 122));
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .track-list {
   width: 100%;
   max-width: 600px;
+  margin-bottom: 100px;
 }
 
 .track-item {
@@ -720,6 +733,39 @@ Sponsorship Area
   .sponsorLogo img {
     max-width: 90%;
   }
+
+  .prizes-container p {
+    font-size: 16px !important;
+    max-width: 27% !important;
+  }
+}
+
+.prizes-container {
+  width: 90%;
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prizes-container.oculus p {
+  text-align: right;
+}
+
+.prizes-container.oculus {
+  flex-direction: row-reverse;
+  margin-bottom: 80px;
+}
+
+.prizes-container img {
+  width: 72%;
+}
+
+.prizes-container p {
+  color: #fff;
+  font-size: 24px;
+  max-width: 25%;
 }
 
 /**
