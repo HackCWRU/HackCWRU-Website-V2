@@ -1,39 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "f7d2c6228f5b92891389",
-    "url": "/static/css/main.dc1348c6.chunk.css"
+    "revision": "dd2c4e50af7cc55e88bb",
+    "url": "/static/css/main.9d2ccffd.chunk.css"
   },
   {
-    "revision": "f7d2c6228f5b92891389",
-    "url": "/static/js/main.f7d2c622.chunk.js"
+    "revision": "dd2c4e50af7cc55e88bb",
+    "url": "/static/js/main.dd2c4e50.chunk.js"
   },
   {
-    "revision": "86933568b9529f8ece50",
-    "url": "/static/js/1.86933568.chunk.js"
+    "revision": "b61fffdfa404c3115d35",
+    "url": "/static/js/1.b61fffdf.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "a1eab7da72a08967902d65d573ce5b06",
-    "url": "/static/media/clown_fish.a1eab7da.svg"
-  },
-  {
     "revision": "935c1373966cc6bd0897d4300083dfc8",
     "url": "/static/media/beachy_boi_v4.935c1373.svg"
   },
   {
-    "revision": "31e204f1a6d380e36f3e5e4d8eacd689",
-    "url": "/static/media/top_sea.31e204f1.svg"
-  },
-  {
-    "revision": "0d24e97f7c1db68ed5ab85e20e549aed",
-    "url": "/static/media/mid_sea.0d24e97f.svg"
-  },
-  {
-    "revision": "9a5ee724917a2bf0a4370e0ac0020756",
-    "url": "/static/media/bot_sea.9a5ee724.svg"
+    "revision": "3a8e8005ad605e3cc07ef01da571b8ee",
+    "url": "/static/media/top_front waves.3a8e8005.svg"
   },
   {
     "revision": "56928326b3966da42eadf2ea4bd909a5",
@@ -68,12 +56,20 @@ self.__precacheManifest = [
     "url": "/static/media/bot_sea.c1821da9.svg"
   },
   {
+    "revision": "41b4f60883d01bc89669927a23916726",
+    "url": "/static/media/sunset_sky.41b4f608.svg"
+  },
+  {
     "revision": "50e901e95dcf66f34e1afb45e80c7a11",
     "url": "/static/media/cloud1.50e901e9.svg"
   },
   {
     "revision": "01c4132eeae11f8a7b424014cf6e6be9",
     "url": "/static/media/cloud2.01c4132e.svg"
+  },
+  {
+    "revision": "a1eab7da72a08967902d65d573ce5b06",
+    "url": "/static/media/clown_fish.a1eab7da.svg"
   },
   {
     "revision": "4ba99bb5927ec753645073a56c2c0b3c",
@@ -132,16 +128,28 @@ self.__precacheManifest = [
     "url": "/static/media/Maker.d337e118.svg"
   },
   {
+    "revision": "3fdfe5563a7be59a3f080b40acaff87e",
+    "url": "/static/media/speakers.3fdfe556.png"
+  },
+  {
+    "revision": "98faffa3d6b6cd039315bb7e3c4aceea",
+    "url": "/static/media/oculus headsets.98faffa3.png"
+  },
+  {
     "revision": "6ef6343ccbd1e6468aa77fd98f94c48b",
     "url": "/static/media/final.6ef6343c.svg"
   },
   {
-    "revision": "627ece2766ba0ec977e1cc9e95c13540",
-    "url": "/static/media/Logo.627ece27.svg"
+    "revision": "a055b37ea66ebd8648c3937f6864dbee",
+    "url": "/static/media/hackcwru title.a055b37e.svg"
   },
   {
     "revision": "12108809f49c49bcdc126dcecc938761",
     "url": "/static/media/Nexa.12108809.otf"
+  },
+  {
+    "revision": "fd35d00c2c2109543a78077848c56234",
+    "url": "/static/media/transition_to_section_2.fd35d00c.svg"
   },
   {
     "revision": "f50bc17810f51cff2cf45fe5c4f45d04",
@@ -176,6 +184,10 @@ self.__precacheManifest = [
     "url": "/static/media/jetbrainsLogo.a239eb86.png"
   },
   {
+    "revision": "5ceff127e3fa5ac8ec51650f18e8e117",
+    "url": "/static/media/apartment_list_logo.5ceff127.png"
+  },
+  {
     "revision": "e8f44062d0a2c5ab1d68a95ae1888524",
     "url": "/static/media/CoverMyMeds.e8f44062.svg"
   },
@@ -188,7 +200,7 @@ self.__precacheManifest = [
     "url": "/static/media/sticker-mule.67e93281.svg"
   },
   {
-    "revision": "3782896cb40ba78308bd183cc950ef9c",
+    "revision": "6356aa49fb2adab8881bc7a5270c6405",
     "url": "/index.html"
   }
 ];
