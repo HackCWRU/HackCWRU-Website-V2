@@ -239,7 +239,7 @@ class App extends Component {
 
               <Sponsor href="https://www.numo.com/" src={require('./Assets/sponsors/numoLogo.png')} maxWidth={25} />
               <Sponsor href="https://www.etsy.com/" src={require('./Assets/sponsors/Etsy_logo.png')} maxWidth={25} />
-              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/assurantlabs.gif')} maxWidth={25} />
+              <Sponsor href="https://www.assurantlabs.com/" src={require('./Assets/sponsors/AssurantLabs_horz_logo_color.svg')} maxWidth={35} />
 
               <Sponsor href="https://www.jetbrains.com/" src={require('./Assets/sponsors/jetbrainsLogo.png')} maxWidth={15} />
               <Sponsor href="https://www.hyland.com/" src={require('./Assets/sponsors/hyland.png')} maxWidth={20} />
