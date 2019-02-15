@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd2c4e50af7cc55e88bb",
-    "url": "/static/css/main.9d2ccffd.chunk.css"
+    "revision": "a61aa502b7aa0c31bcf4",
+    "url": "/static/css/main.dbbeefbe.chunk.css"
   },
   {
-    "revision": "dd2c4e50af7cc55e88bb",
-    "url": "/static/js/main.dd2c4e50.chunk.js"
+    "revision": "a61aa502b7aa0c31bcf4",
+    "url": "/static/js/main.a61aa502.chunk.js"
   },
   {
     "revision": "b61fffdfa404c3115d35",
@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/static/media/bot_sea.c1821da9.svg"
   },
   {
-    "revision": "41b4f60883d01bc89669927a23916726",
-    "url": "/static/media/sunset_sky.41b4f608.svg"
+    "revision": "494cec0f39b00222757b16cdf912543b",
+    "url": "/static/media/sunset_sky.494cec0f.svg"
   },
   {
-    "revision": "50e901e95dcf66f34e1afb45e80c7a11",
-    "url": "/static/media/cloud1.50e901e9.svg"
+    "revision": "b41bbe48c8bdea7be24f4af252b7a204",
+    "url": "/static/media/cloud1.b41bbe48.svg"
   },
   {
-    "revision": "01c4132eeae11f8a7b424014cf6e6be9",
-    "url": "/static/media/cloud2.01c4132e.svg"
+    "revision": "97609240058752eac7609c2bea368fa0",
+    "url": "/static/media/cloud2.97609240.svg"
   },
   {
     "revision": "a1eab7da72a08967902d65d573ce5b06",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/static/media/oculus headsets.98faffa3.png"
   },
   {
-    "revision": "6ef6343ccbd1e6468aa77fd98f94c48b",
-    "url": "/static/media/final.6ef6343c.svg"
+    "revision": "e37b5ee2ec532b507a5b8caa54358566",
+    "url": "/static/media/final.e37b5ee2.svg"
   },
   {
     "revision": "a055b37ea66ebd8648c3937f6864dbee",
@@ -176,8 +176,8 @@ self.__precacheManifest = [
     "url": "/static/media/Etsy_logo.5e132db1.png"
   },
   {
-    "revision": "6b57380664879c7e6a5de6f75f4cf425",
-    "url": "/static/media/assurantlabs.6b573806.gif"
+    "revision": "09aeddf05b207bca08917ca8b9614eb9",
+    "url": "/static/media/AssurantLabs_horz_logo_color.09aeddf0.svg"
   },
   {
     "revision": "a239eb865447e9b99abef1d599f1032f",
@@ -200,7 +200,7 @@ self.__precacheManifest = [
     "url": "/static/media/sticker-mule.67e93281.svg"
   },
   {
-    "revision": "6356aa49fb2adab8881bc7a5270c6405",
+    "revision": "f7eb1b0f4a2544ddd5e026234163435a",
     "url": "/index.html"
   }
 ];
